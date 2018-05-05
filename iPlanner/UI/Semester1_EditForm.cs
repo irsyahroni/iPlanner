@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iPlanner.UI
 {
-    public partial class Semester1_Form : Form
+    public partial class Semester1_EditForm : Form
     {
-        public Semester1_Form()
+        public Semester1_EditForm()
         {
             InitializeComponent();
         }
@@ -22,10 +22,10 @@ namespace iPlanner.UI
            this.Close();
         }
 
-        private void Edit_button_Click(object sender, EventArgs e)
+        private void Save_button_Click(object sender, EventArgs e)
         {
-            Semester1_EditForm _EditForm = new Semester1_EditForm();
-            _EditForm.Show();
+            Semester1_Form _Form = new Semester1_Form();
+            _Form.Show();
             this.Close();
         }
     }
