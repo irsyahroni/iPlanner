@@ -33,7 +33,6 @@
             this.Button_table = new System.Windows.Forms.TableLayoutPanel();
             this.Save_button = new System.Windows.Forms.Button();
             this.Recommend_button = new System.Windows.Forms.Button();
-            this.Exit_button = new System.Windows.Forms.Button();
             this.Krs_table = new System.Windows.Forms.TableLayoutPanel();
             this.Bobotsks_table = new System.Windows.Forms.TableLayoutPanel();
             this.Bobotsks10_label = new System.Windows.Forms.Label();
@@ -154,7 +153,6 @@
             this.Button_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.Button_table.Controls.Add(this.Save_button, 0, 0);
             this.Button_table.Controls.Add(this.Recommend_button, 0, 1);
-            this.Button_table.Controls.Add(this.Exit_button, 0, 2);
             this.Button_table.Location = new System.Drawing.Point(676, 30);
             this.Button_table.Name = "Button_table";
             this.Button_table.RowCount = 4;
@@ -185,17 +183,6 @@
             this.Recommend_button.TabIndex = 2;
             this.Recommend_button.Text = "Recommed";
             this.Recommend_button.UseVisualStyleBackColor = true;
-            // 
-            // Exit_button
-            // 
-            this.Exit_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Exit_button.Location = new System.Drawing.Point(3, 63);
-            this.Exit_button.Name = "Exit_button";
-            this.Exit_button.Size = new System.Drawing.Size(91, 22);
-            this.Exit_button.TabIndex = 3;
-            this.Exit_button.Text = "Exit";
-            this.Exit_button.UseVisualStyleBackColor = true;
-            this.Exit_button.Click += new System.EventHandler(this.Exit_button_Click);
             // 
             // Krs_table
             // 
@@ -1289,7 +1276,6 @@
         private System.Windows.Forms.Label Nomor3_label;
         private System.Windows.Forms.Label Nomor2_label;
         private System.Windows.Forms.Label Nomor1_label;
-        private System.Windows.Forms.Button Exit_button;
         private System.Windows.Forms.Button Save_button;
         private System.Windows.Forms.Button Recommend_button;
         private System.Windows.Forms.TextBox Nilai10_textbox;
