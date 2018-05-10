@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iPlanner.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,14 +20,32 @@ namespace iPlanner.UI
 
         private void Exit_button_Click(object sender, EventArgs e)
         {
-           this.Close();
+            this.Close();
         }
 
-        private void Edit_button_Click(object sender, EventArgs e)
+        private string[] Matkul = new string[10];
+        private string[] Nilai = new string[10];
+        private void DapatInput()
         {
-            Semester1_EditForm _EditForm = new Semester1_EditForm();
-            _EditForm.Show();
-            this.Close();
+            Matkul = Semester1.DapatMatkul();
+            Nilai = Semester1.DapatNilai();
+        }
+ 
+        private bool InputKosong()
+        {
+            bool MasihKosong=true;
+            foreach (var item in Matkul)
+            {
+                if (item is null)
+                {
+                    MasihKosong = true;
+                }
+                else 
+                {
+                    MasihKosong = false;
+                }
+            }
+            return MasihKosong;
         }
     }
 }

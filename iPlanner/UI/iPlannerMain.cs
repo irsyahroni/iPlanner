@@ -31,5 +31,11 @@ namespace iPlanner
             semester1.Show();
 
         }
+
+        private void EditSemester1_button_Click(object sender, EventArgs e)
+        {
+            Semester1_EditForm editForm = new Semester1_EditForm();
+            editForm.Show();
+        }
     }
 }

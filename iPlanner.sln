@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPlanner", "iPlanner\iPlanner.csproj", "{B4A28189-0993-4752-AE7F-D90C8DC1300F}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "iPlanner_Database", "..\iPlanner_Database\iPlanner_Database\iPlanner_Database.sqlproj", "{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{B4A28189-0993-4752-AE7F-D90C8DC1300F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A28189-0993-4752-AE7F-D90C8DC1300F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4A28189-0993-4752-AE7F-D90C8DC1300F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D55BB3-3C10-4DCE-9993-BE2F4F70BD4A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
