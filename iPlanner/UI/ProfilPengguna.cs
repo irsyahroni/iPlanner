@@ -17,7 +17,7 @@ namespace iPlanner.UI
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Exit_button_Click(object sender, EventArgs e)
         {
             this.Close();
         }
