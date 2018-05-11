@@ -46,6 +46,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo Iplaner.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,6 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Semester1.cs" />
+    <Compile Include="HitungNilai.cs" />
+    <Compile Include="Data\IPlannerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPlannerDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="UI\iPlannerMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,16 +85,40 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\Semester1_EditForm.cs">
+    <Compile Include="UI\Semester 2\Semester2_EditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Semester1_EditForm.Designer.cs">
+    <Compile Include="UI\Semester 2\Semester2_EditForm.Designer.cs">
+      <DependentUpon>Semester2_EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Semester 2\Semester2_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Semester 2\Semester2_Form.Designer.cs">
+      <DependentUpon>Semester2_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Semester 2\Semester2_IsiNilaiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Semester 2\Semester2_IsiNilaiForm.Designer.cs">
+      <DependentUpon>Semester2_IsiNilaiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Semester 1\Semester1_EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Semester 1\Semester1_EditForm.Designer.cs">
       <DependentUpon>Semester1_EditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Semester1_Form.cs">
+    <Compile Include="UI\Semester 1\Semester1_IsiNilaiForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Semester1_Form.Designer.cs">
+    <Compile Include="UI\Semester 1\Semester1_IsiNilaiForm.Designer.cs">
+      <DependentUpon>Semester1_IsiNilaiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Semester 1\Semester1_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Semester 1\Semester1_Form.Designer.cs">
       <DependentUpon>Semester1_Form.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="UI\iPlannerMain.resx">
@@ -104,12 +137,35 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UI\Semester1_EditForm.resx">
+    <EmbeddedResource Include="UI\Semester 2\Semester2_EditForm.resx">
+      <DependentUpon>Semester2_EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Semester 2\Semester2_Form.resx">
+      <DependentUpon>Semester2_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Semester 2\Semester2_IsiNilaiForm.resx">
+      <DependentUpon>Semester2_IsiNilaiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Semester 1\Semester1_EditForm.resx">
       <DependentUpon>Semester1_EditForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Semester1_Form.resx">
+    <EmbeddedResource Include="UI\Semester 1\Semester1_IsiNilaiForm.resx">
+      <DependentUpon>Semester1_IsiNilaiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Semester 1\Semester1_Form.resx">
       <DependentUpon>Semester1_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Data\IPlannerDataSet.xsc">
+      <DependentUpon>IPlannerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data\IPlannerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IPlannerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\IPlannerDataSet.xss">
+      <DependentUpon>IPlannerDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -137,6 +193,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\IPlanner.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo Iplaner.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

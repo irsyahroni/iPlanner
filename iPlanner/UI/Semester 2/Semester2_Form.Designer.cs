@@ -1,6 +1,6 @@
 ﻿namespace iPlanner.UI
 {
-    partial class Semester1_EditForm
+    partial class Semester2_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,6 @@
         {
             this.Greeting_label = new System.Windows.Forms.Label();
             this.Table_Semester = new System.Windows.Forms.TableLayoutPanel();
-            this.Button_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Save_button = new System.Windows.Forms.Button();
-            this.Recommend_button = new System.Windows.Forms.Button();
             this.Krs_table = new System.Windows.Forms.TableLayoutPanel();
             this.Bobotsks_table = new System.Windows.Forms.TableLayoutPanel();
             this.Bobotsks10_label = new System.Windows.Forms.Label();
@@ -57,16 +54,16 @@
             this.Bobot2_label = new System.Windows.Forms.Label();
             this.Bobot1_label = new System.Windows.Forms.Label();
             this.Nilai_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Nilai10_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai9_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai8_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai7_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai6_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai5_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai4_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai3_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai2_textbox = new System.Windows.Forms.TextBox();
-            this.Nilai1_textbox = new System.Windows.Forms.TextBox();
+            this.Nilai10_label = new System.Windows.Forms.Label();
+            this.Nilai9_label = new System.Windows.Forms.Label();
+            this.Nilai8_label = new System.Windows.Forms.Label();
+            this.Nilai7_label = new System.Windows.Forms.Label();
+            this.Nilai6_label = new System.Windows.Forms.Label();
+            this.Nilai5_label = new System.Windows.Forms.Label();
+            this.Nilai4_label = new System.Windows.Forms.Label();
+            this.Nilai3_label = new System.Windows.Forms.Label();
+            this.Nilai2_label = new System.Windows.Forms.Label();
+            this.Nilai1_label = new System.Windows.Forms.Label();
             this.Sks_table = new System.Windows.Forms.TableLayoutPanel();
             this.Sks10_label = new System.Windows.Forms.Label();
             this.Sks8_label = new System.Windows.Forms.Label();
@@ -96,18 +93,28 @@
             this.Matkul_label = new System.Windows.Forms.Label();
             this.Nomor_label = new System.Windows.Forms.Label();
             this.Matkul_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Matkul10_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul5_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul3_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul2_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul1_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul9_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul8_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul7_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul6_textbox = new System.Windows.Forms.TextBox();
-            this.Matkul4_textbox = new System.Windows.Forms.TextBox();
+            this.Matkul10_label = new System.Windows.Forms.Label();
+            this.Matkul9_label = new System.Windows.Forms.Label();
+            this.Matkul8_label = new System.Windows.Forms.Label();
+            this.Matkul7_label = new System.Windows.Forms.Label();
+            this.Matkul6_label = new System.Windows.Forms.Label();
+            this.Matkul5_label = new System.Windows.Forms.Label();
+            this.Matkul4_label = new System.Windows.Forms.Label();
+            this.Matkul3_label = new System.Windows.Forms.Label();
+            this.Matkul2_label = new System.Windows.Forms.Label();
+            this.Matkul1_label = new System.Windows.Forms.Label();
+            this.Button_table = new System.Windows.Forms.TableLayoutPanel();
+            this.IsiNilai_Button = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.skstotal_label = new System.Windows.Forms.Label();
+            this.NilaiSKS_label = new System.Windows.Forms.Label();
+            this.IPK_Label = new System.Windows.Forms.Label();
+            this.NilaiIP_label = new System.Windows.Forms.Label();
+            this.Ip_Label = new System.Windows.Forms.Label();
+            this.Total_label = new System.Windows.Forms.Label();
+            this.NilaiTotal_label = new System.Windows.Forms.Label();
+            this.Exit_button = new System.Windows.Forms.Button();
             this.Table_Semester.SuspendLayout();
-            this.Button_table.SuspendLayout();
             this.Krs_table.SuspendLayout();
             this.Bobotsks_table.SuspendLayout();
             this.Bobot_table.SuspendLayout();
@@ -115,6 +122,8 @@
             this.Sks_table.SuspendLayout();
             this.Nomor_table.SuspendLayout();
             this.Matkul_table.SuspendLayout();
+            this.Button_table.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Greeting_label
@@ -125,7 +134,7 @@
             this.Greeting_label.Name = "Greeting_label";
             this.Greeting_label.Size = new System.Drawing.Size(667, 13);
             this.Greeting_label.TabIndex = 2;
-            this.Greeting_label.Text = "Silahkan isi nilai semester pertama";
+            this.Greeting_label.Text = "Rekapitulasi nilai semester pertama";
             this.Greeting_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Table_Semester
@@ -133,9 +142,9 @@
             this.Table_Semester.ColumnCount = 2;
             this.Table_Semester.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.41425F));
             this.Table_Semester.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
-            this.Table_Semester.Controls.Add(this.Button_table, 1, 1);
             this.Table_Semester.Controls.Add(this.Greeting_label, 0, 0);
             this.Table_Semester.Controls.Add(this.Krs_table, 0, 1);
+            this.Table_Semester.Controls.Add(this.Button_table, 1, 1);
             this.Table_Semester.Location = new System.Drawing.Point(12, 12);
             this.Table_Semester.Name = "Table_Semester";
             this.Table_Semester.RowCount = 3;
@@ -145,46 +154,6 @@
             this.Table_Semester.Size = new System.Drawing.Size(776, 426);
             this.Table_Semester.TabIndex = 0;
             // 
-            // Button_table
-            // 
-            this.Button_table.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button_table.ColumnCount = 1;
-            this.Button_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Button_table.Controls.Add(this.Save_button, 0, 0);
-            this.Button_table.Controls.Add(this.Recommend_button, 0, 1);
-            this.Button_table.Location = new System.Drawing.Point(676, 30);
-            this.Button_table.Name = "Button_table";
-            this.Button_table.RowCount = 4;
-            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.27586F));
-            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.72414F));
-            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
-            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.Button_table.Size = new System.Drawing.Size(97, 119);
-            this.Button_table.TabIndex = 7;
-            // 
-            // Save_button
-            // 
-            this.Save_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Save_button.Location = new System.Drawing.Point(3, 3);
-            this.Save_button.Name = "Save_button";
-            this.Save_button.Size = new System.Drawing.Size(91, 22);
-            this.Save_button.TabIndex = 1;
-            this.Save_button.Text = "Save";
-            this.Save_button.UseVisualStyleBackColor = true;
-            this.Save_button.Click += new System.EventHandler(this.Save_button_Click);
-            // 
-            // Recommend_button
-            // 
-            this.Recommend_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Recommend_button.Location = new System.Drawing.Point(3, 31);
-            this.Recommend_button.Name = "Recommend_button";
-            this.Recommend_button.Size = new System.Drawing.Size(91, 23);
-            this.Recommend_button.TabIndex = 2;
-            this.Recommend_button.Text = "Recommed";
-            this.Recommend_button.UseVisualStyleBackColor = true;
-            this.Recommend_button.Click += new System.EventHandler(this.Recommend_button_Click);
-            // 
             // Krs_table
             // 
             this.Krs_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -192,8 +161,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Krs_table.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Krs_table.ColumnCount = 6;
-            this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.439528F));
-            this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.56047F));
+            this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.81818F));
+            this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 88.18182F));
             this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
             this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
@@ -548,16 +517,16 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Nilai_table.ColumnCount = 1;
             this.Nilai_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Nilai_table.Controls.Add(this.Nilai10_textbox, 0, 9);
-            this.Nilai_table.Controls.Add(this.Nilai9_textbox, 0, 8);
-            this.Nilai_table.Controls.Add(this.Nilai8_textbox, 0, 7);
-            this.Nilai_table.Controls.Add(this.Nilai7_textbox, 0, 6);
-            this.Nilai_table.Controls.Add(this.Nilai6_textbox, 0, 5);
-            this.Nilai_table.Controls.Add(this.Nilai5_textbox, 0, 4);
-            this.Nilai_table.Controls.Add(this.Nilai4_textbox, 0, 3);
-            this.Nilai_table.Controls.Add(this.Nilai3_textbox, 0, 2);
-            this.Nilai_table.Controls.Add(this.Nilai2_textbox, 0, 1);
-            this.Nilai_table.Controls.Add(this.Nilai1_textbox, 0, 0);
+            this.Nilai_table.Controls.Add(this.Nilai10_label, 0, 9);
+            this.Nilai_table.Controls.Add(this.Nilai9_label, 0, 8);
+            this.Nilai_table.Controls.Add(this.Nilai8_label, 0, 7);
+            this.Nilai_table.Controls.Add(this.Nilai7_label, 0, 6);
+            this.Nilai_table.Controls.Add(this.Nilai6_label, 0, 5);
+            this.Nilai_table.Controls.Add(this.Nilai5_label, 0, 4);
+            this.Nilai_table.Controls.Add(this.Nilai4_label, 0, 3);
+            this.Nilai_table.Controls.Add(this.Nilai3_label, 0, 2);
+            this.Nilai_table.Controls.Add(this.Nilai2_label, 0, 1);
+            this.Nilai_table.Controls.Add(this.Nilai1_label, 0, 0);
             this.Nilai_table.Location = new System.Drawing.Point(405, 37);
             this.Nilai_table.Name = "Nilai_table";
             this.Nilai_table.RowCount = 10;
@@ -574,95 +543,133 @@
             this.Nilai_table.Size = new System.Drawing.Size(70, 202);
             this.Nilai_table.TabIndex = 7;
             // 
-            // Nilai10_textbox
+            // Nilai10_label
             // 
-            this.Nilai10_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai10_textbox.Location = new System.Drawing.Point(3, 185);
-            this.Nilai10_textbox.Name = "Nilai10_textbox";
-            this.Nilai10_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai10_textbox.TabIndex = 20;
-            this.Nilai10_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai10_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai10_label.AutoSize = true;
+            this.Nilai10_label.Location = new System.Drawing.Point(3, 182);
+            this.Nilai10_label.Name = "Nilai10_label";
+            this.Nilai10_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai10_label.TabIndex = 36;
+            this.Nilai10_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai9_textbox
+            // Nilai9_label
             // 
-            this.Nilai9_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai9_textbox.Location = new System.Drawing.Point(3, 165);
-            this.Nilai9_textbox.Name = "Nilai9_textbox";
-            this.Nilai9_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai9_textbox.TabIndex = 19;
-            this.Nilai9_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai9_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai9_label.AutoSize = true;
+            this.Nilai9_label.Location = new System.Drawing.Point(3, 162);
+            this.Nilai9_label.Name = "Nilai9_label";
+            this.Nilai9_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai9_label.TabIndex = 35;
+            this.Nilai9_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai8_textbox
+            // Nilai8_label
             // 
-            this.Nilai8_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai8_textbox.Location = new System.Drawing.Point(3, 145);
-            this.Nilai8_textbox.Name = "Nilai8_textbox";
-            this.Nilai8_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai8_textbox.TabIndex = 18;
-            this.Nilai8_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai8_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai8_label.AutoSize = true;
+            this.Nilai8_label.Location = new System.Drawing.Point(3, 142);
+            this.Nilai8_label.Name = "Nilai8_label";
+            this.Nilai8_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai8_label.TabIndex = 25;
+            this.Nilai8_label.Text = " ";
+            this.Nilai8_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai7_textbox
+            // Nilai7_label
             // 
-            this.Nilai7_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai7_textbox.Location = new System.Drawing.Point(3, 125);
-            this.Nilai7_textbox.Name = "Nilai7_textbox";
-            this.Nilai7_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai7_textbox.TabIndex = 17;
-            this.Nilai7_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai7_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai7_label.AutoSize = true;
+            this.Nilai7_label.Location = new System.Drawing.Point(3, 122);
+            this.Nilai7_label.Name = "Nilai7_label";
+            this.Nilai7_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai7_label.TabIndex = 24;
+            this.Nilai7_label.Text = " ";
+            this.Nilai7_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai6_textbox
+            // Nilai6_label
             // 
-            this.Nilai6_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai6_textbox.Location = new System.Drawing.Point(3, 105);
-            this.Nilai6_textbox.Name = "Nilai6_textbox";
-            this.Nilai6_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai6_textbox.TabIndex = 16;
-            this.Nilai6_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai6_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai6_label.AutoSize = true;
+            this.Nilai6_label.Location = new System.Drawing.Point(3, 102);
+            this.Nilai6_label.Name = "Nilai6_label";
+            this.Nilai6_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai6_label.TabIndex = 23;
+            this.Nilai6_label.Text = " ";
+            this.Nilai6_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai5_textbox
+            // Nilai5_label
             // 
-            this.Nilai5_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai5_textbox.Location = new System.Drawing.Point(3, 85);
-            this.Nilai5_textbox.Name = "Nilai5_textbox";
-            this.Nilai5_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai5_textbox.TabIndex = 15;
-            this.Nilai5_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai5_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai5_label.AutoSize = true;
+            this.Nilai5_label.Location = new System.Drawing.Point(3, 82);
+            this.Nilai5_label.Name = "Nilai5_label";
+            this.Nilai5_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai5_label.TabIndex = 22;
+            this.Nilai5_label.Text = " ";
+            this.Nilai5_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai4_textbox
+            // Nilai4_label
             // 
-            this.Nilai4_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai4_textbox.Location = new System.Drawing.Point(3, 65);
-            this.Nilai4_textbox.Name = "Nilai4_textbox";
-            this.Nilai4_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai4_textbox.TabIndex = 14;
-            this.Nilai4_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai4_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai4_label.AutoSize = true;
+            this.Nilai4_label.Location = new System.Drawing.Point(3, 62);
+            this.Nilai4_label.Name = "Nilai4_label";
+            this.Nilai4_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai4_label.TabIndex = 21;
+            this.Nilai4_label.Text = " ";
+            this.Nilai4_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai3_textbox
+            // Nilai3_label
             // 
-            this.Nilai3_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai3_textbox.Location = new System.Drawing.Point(3, 45);
-            this.Nilai3_textbox.Name = "Nilai3_textbox";
-            this.Nilai3_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai3_textbox.TabIndex = 13;
-            this.Nilai3_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai3_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai3_label.AutoSize = true;
+            this.Nilai3_label.Location = new System.Drawing.Point(3, 42);
+            this.Nilai3_label.Name = "Nilai3_label";
+            this.Nilai3_label.Size = new System.Drawing.Size(64, 20);
+            this.Nilai3_label.TabIndex = 20;
+            this.Nilai3_label.Text = " ";
+            this.Nilai3_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai2_textbox
+            // Nilai2_label
             // 
-            this.Nilai2_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai2_textbox.Location = new System.Drawing.Point(3, 24);
-            this.Nilai2_textbox.Name = "Nilai2_textbox";
-            this.Nilai2_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai2_textbox.TabIndex = 12;
-            this.Nilai2_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai2_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai2_label.AutoSize = true;
+            this.Nilai2_label.Location = new System.Drawing.Point(3, 21);
+            this.Nilai2_label.Name = "Nilai2_label";
+            this.Nilai2_label.Size = new System.Drawing.Size(64, 21);
+            this.Nilai2_label.TabIndex = 19;
+            this.Nilai2_label.Text = " ";
+            this.Nilai2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Nilai1_textbox
+            // Nilai1_label
             // 
-            this.Nilai1_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Nilai1_textbox.Location = new System.Drawing.Point(3, 3);
-            this.Nilai1_textbox.Name = "Nilai1_textbox";
-            this.Nilai1_textbox.Size = new System.Drawing.Size(64, 20);
-            this.Nilai1_textbox.TabIndex = 11;
-            this.Nilai1_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nilai1_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nilai1_label.AutoSize = true;
+            this.Nilai1_label.Location = new System.Drawing.Point(3, 0);
+            this.Nilai1_label.Name = "Nilai1_label";
+            this.Nilai1_label.Size = new System.Drawing.Size(64, 21);
+            this.Nilai1_label.TabIndex = 18;
+            this.Nilai1_label.Text = " ";
+            this.Nilai1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks_table
             // 
@@ -706,7 +713,7 @@
             this.Sks10_label.Name = "Sks10_label";
             this.Sks10_label.Size = new System.Drawing.Size(62, 20);
             this.Sks10_label.TabIndex = 18;
-            this.Sks10_label.Text = "label57";
+            this.Sks10_label.Text = "  3";
             this.Sks10_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks8_label
@@ -719,7 +726,7 @@
             this.Sks8_label.Name = "Sks8_label";
             this.Sks8_label.Size = new System.Drawing.Size(62, 20);
             this.Sks8_label.TabIndex = 16;
-            this.Sks8_label.Text = "label17";
+            this.Sks8_label.Text = " 2";
             this.Sks8_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks7_label
@@ -732,7 +739,7 @@
             this.Sks7_label.Name = "Sks7_label";
             this.Sks7_label.Size = new System.Drawing.Size(62, 20);
             this.Sks7_label.TabIndex = 15;
-            this.Sks7_label.Text = "label16";
+            this.Sks7_label.Text = "1";
             this.Sks7_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks6_label
@@ -745,7 +752,7 @@
             this.Sks6_label.Name = "Sks6_label";
             this.Sks6_label.Size = new System.Drawing.Size(62, 20);
             this.Sks6_label.TabIndex = 14;
-            this.Sks6_label.Text = "label15";
+            this.Sks6_label.Text = "3";
             this.Sks6_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks5_label
@@ -758,7 +765,7 @@
             this.Sks5_label.Name = "Sks5_label";
             this.Sks5_label.Size = new System.Drawing.Size(62, 20);
             this.Sks5_label.TabIndex = 13;
-            this.Sks5_label.Text = "label14";
+            this.Sks5_label.Text = "2";
             this.Sks5_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks4_label
@@ -771,7 +778,7 @@
             this.Sks4_label.Name = "Sks4_label";
             this.Sks4_label.Size = new System.Drawing.Size(62, 20);
             this.Sks4_label.TabIndex = 12;
-            this.Sks4_label.Text = "label13";
+            this.Sks4_label.Text = "1";
             this.Sks4_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks3_label
@@ -784,7 +791,7 @@
             this.Sks3_label.Name = "Sks3_label";
             this.Sks3_label.Size = new System.Drawing.Size(62, 20);
             this.Sks3_label.TabIndex = 11;
-            this.Sks3_label.Text = "label12";
+            this.Sks3_label.Text = "3";
             this.Sks3_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks2_label
@@ -797,7 +804,7 @@
             this.Sks2_label.Name = "Sks2_label";
             this.Sks2_label.Size = new System.Drawing.Size(62, 21);
             this.Sks2_label.TabIndex = 10;
-            this.Sks2_label.Text = "label11";
+            this.Sks2_label.Text = "4";
             this.Sks2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks1_label
@@ -810,7 +817,7 @@
             this.Sks1_label.Name = "Sks1_label";
             this.Sks1_label.Size = new System.Drawing.Size(62, 21);
             this.Sks1_label.TabIndex = 9;
-            this.Sks1_label.Text = "label10";
+            this.Sks1_label.Text = "3";
             this.Sks1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sks9_label
@@ -823,7 +830,7 @@
             this.Sks9_label.Name = "Sks9_label";
             this.Sks9_label.Size = new System.Drawing.Size(62, 20);
             this.Sks9_label.TabIndex = 17;
-            this.Sks9_label.Text = "label18";
+            this.Sks9_label.Text = " 2";
             this.Sks9_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Nomor_table
@@ -855,7 +862,7 @@
             this.Nomor_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Nomor_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Nomor_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Nomor_table.Size = new System.Drawing.Size(24, 202);
+            this.Nomor_table.Size = new System.Drawing.Size(31, 202);
             this.Nomor_table.TabIndex = 7;
             // 
             // Nomor10_label
@@ -866,7 +873,7 @@
             this.Nomor10_label.AutoSize = true;
             this.Nomor10_label.Location = new System.Drawing.Point(3, 182);
             this.Nomor10_label.Name = "Nomor10_label";
-            this.Nomor10_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor10_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor10_label.TabIndex = 54;
             this.Nomor10_label.Text = "10. ";
             this.Nomor10_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -879,7 +886,7 @@
             this.Nomor9_label.AutoSize = true;
             this.Nomor9_label.Location = new System.Drawing.Point(3, 162);
             this.Nomor9_label.Name = "Nomor9_label";
-            this.Nomor9_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor9_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor9_label.TabIndex = 53;
             this.Nomor9_label.Text = "9. ";
             this.Nomor9_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -892,7 +899,7 @@
             this.Nomor8_label.AutoSize = true;
             this.Nomor8_label.Location = new System.Drawing.Point(3, 142);
             this.Nomor8_label.Name = "Nomor8_label";
-            this.Nomor8_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor8_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor8_label.TabIndex = 52;
             this.Nomor8_label.Text = "8. ";
             this.Nomor8_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -905,7 +912,7 @@
             this.Nomor7_label.AutoSize = true;
             this.Nomor7_label.Location = new System.Drawing.Point(3, 122);
             this.Nomor7_label.Name = "Nomor7_label";
-            this.Nomor7_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor7_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor7_label.TabIndex = 51;
             this.Nomor7_label.Text = "7. ";
             this.Nomor7_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -918,7 +925,7 @@
             this.Nomor6_label.AutoSize = true;
             this.Nomor6_label.Location = new System.Drawing.Point(3, 102);
             this.Nomor6_label.Name = "Nomor6_label";
-            this.Nomor6_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor6_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor6_label.TabIndex = 50;
             this.Nomor6_label.Text = "6. ";
             this.Nomor6_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -931,7 +938,7 @@
             this.Nomor5_label.AutoSize = true;
             this.Nomor5_label.Location = new System.Drawing.Point(3, 82);
             this.Nomor5_label.Name = "Nomor5_label";
-            this.Nomor5_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor5_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor5_label.TabIndex = 49;
             this.Nomor5_label.Text = "5. ";
             this.Nomor5_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -944,7 +951,7 @@
             this.Nomor4_label.AutoSize = true;
             this.Nomor4_label.Location = new System.Drawing.Point(3, 62);
             this.Nomor4_label.Name = "Nomor4_label";
-            this.Nomor4_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor4_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor4_label.TabIndex = 48;
             this.Nomor4_label.Text = "4.";
             this.Nomor4_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -957,7 +964,7 @@
             this.Nomor3_label.AutoSize = true;
             this.Nomor3_label.Location = new System.Drawing.Point(3, 42);
             this.Nomor3_label.Name = "Nomor3_label";
-            this.Nomor3_label.Size = new System.Drawing.Size(18, 20);
+            this.Nomor3_label.Size = new System.Drawing.Size(25, 20);
             this.Nomor3_label.TabIndex = 47;
             this.Nomor3_label.Text = "3.";
             this.Nomor3_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -970,7 +977,7 @@
             this.Nomor2_label.AutoSize = true;
             this.Nomor2_label.Location = new System.Drawing.Point(3, 21);
             this.Nomor2_label.Name = "Nomor2_label";
-            this.Nomor2_label.Size = new System.Drawing.Size(18, 21);
+            this.Nomor2_label.Size = new System.Drawing.Size(25, 21);
             this.Nomor2_label.TabIndex = 46;
             this.Nomor2_label.Text = "2.";
             this.Nomor2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -983,7 +990,7 @@
             this.Nomor1_label.AutoSize = true;
             this.Nomor1_label.Location = new System.Drawing.Point(3, 0);
             this.Nomor1_label.Name = "Nomor1_label";
-            this.Nomor1_label.Size = new System.Drawing.Size(18, 21);
+            this.Nomor1_label.Size = new System.Drawing.Size(25, 21);
             this.Nomor1_label.TabIndex = 45;
             this.Nomor1_label.Text = "1.";
             this.Nomor1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1046,10 +1053,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul_label.AutoSize = true;
-            this.Matkul_label.Location = new System.Drawing.Point(37, 2);
+            this.Matkul_label.Location = new System.Drawing.Point(44, 2);
             this.Matkul_label.Name = "Matkul_label";
             this.Matkul_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Matkul_label.Size = new System.Drawing.Size(284, 30);
+            this.Matkul_label.Size = new System.Drawing.Size(277, 30);
             this.Matkul_label.TabIndex = 1;
             this.Matkul_label.Text = "Nama Matkul";
             this.Matkul_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1062,7 +1069,7 @@
             this.Nomor_label.AutoSize = true;
             this.Nomor_label.Location = new System.Drawing.Point(5, 2);
             this.Nomor_label.Name = "Nomor_label";
-            this.Nomor_label.Size = new System.Drawing.Size(24, 30);
+            this.Nomor_label.Size = new System.Drawing.Size(31, 30);
             this.Nomor_label.TabIndex = 0;
             this.Nomor_label.Text = "No. ";
             this.Nomor_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1073,17 +1080,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul_table.ColumnCount = 1;
             this.Matkul_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Matkul_table.Controls.Add(this.Matkul10_textbox, 0, 9);
-            this.Matkul_table.Controls.Add(this.Matkul5_textbox, 0, 4);
-            this.Matkul_table.Controls.Add(this.Matkul3_textbox, 0, 2);
-            this.Matkul_table.Controls.Add(this.Matkul2_textbox, 0, 1);
-            this.Matkul_table.Controls.Add(this.Matkul1_textbox, 0, 0);
-            this.Matkul_table.Controls.Add(this.Matkul9_textbox, 0, 8);
-            this.Matkul_table.Controls.Add(this.Matkul8_textbox, 0, 7);
-            this.Matkul_table.Controls.Add(this.Matkul7_textbox, 0, 6);
-            this.Matkul_table.Controls.Add(this.Matkul6_textbox, 0, 5);
-            this.Matkul_table.Controls.Add(this.Matkul4_textbox, 0, 3);
-            this.Matkul_table.Location = new System.Drawing.Point(37, 37);
+            this.Matkul_table.Controls.Add(this.Matkul10_label, 0, 9);
+            this.Matkul_table.Controls.Add(this.Matkul9_label, 0, 8);
+            this.Matkul_table.Controls.Add(this.Matkul8_label, 0, 7);
+            this.Matkul_table.Controls.Add(this.Matkul7_label, 0, 6);
+            this.Matkul_table.Controls.Add(this.Matkul6_label, 0, 5);
+            this.Matkul_table.Controls.Add(this.Matkul5_label, 0, 4);
+            this.Matkul_table.Controls.Add(this.Matkul4_label, 0, 3);
+            this.Matkul_table.Controls.Add(this.Matkul3_label, 0, 2);
+            this.Matkul_table.Controls.Add(this.Matkul2_label, 0, 1);
+            this.Matkul_table.Controls.Add(this.Matkul1_label, 0, 0);
+            this.Matkul_table.Location = new System.Drawing.Point(44, 37);
             this.Matkul_table.Name = "Matkul_table";
             this.Matkul_table.RowCount = 10;
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1097,111 +1104,286 @@
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Matkul_table.Size = new System.Drawing.Size(284, 202);
+            this.Matkul_table.Size = new System.Drawing.Size(277, 202);
             this.Matkul_table.TabIndex = 6;
             // 
-            // Matkul10_textbox
+            // Matkul10_label
             // 
-            this.Matkul10_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul10_textbox.Location = new System.Drawing.Point(3, 185);
-            this.Matkul10_textbox.Name = "Matkul10_textbox";
-            this.Matkul10_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul10_textbox.TabIndex = 10;
-            this.Matkul10_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul10_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul10_label.AutoSize = true;
+            this.Matkul10_label.Location = new System.Drawing.Point(3, 182);
+            this.Matkul10_label.Name = "Matkul10_label";
+            this.Matkul10_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul10_label.TabIndex = 9;
+            this.Matkul10_label.Text = "Rekomendasi : Interaksi Perangkat Lunak";
+            this.Matkul10_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul5_textbox
+            // Matkul9_label
             // 
-            this.Matkul5_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul5_textbox.Location = new System.Drawing.Point(3, 85);
-            this.Matkul5_textbox.Name = "Matkul5_textbox";
-            this.Matkul5_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul5_textbox.TabIndex = 5;
-            this.Matkul5_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul9_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul9_label.AutoSize = true;
+            this.Matkul9_label.Location = new System.Drawing.Point(3, 162);
+            this.Matkul9_label.Name = "Matkul9_label";
+            this.Matkul9_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul9_label.TabIndex = 8;
+            this.Matkul9_label.Text = "Rekomendasi : Keteknikan ";
+            this.Matkul9_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul3_textbox
+            // Matkul8_label
             // 
-            this.Matkul3_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul3_textbox.Location = new System.Drawing.Point(3, 45);
-            this.Matkul3_textbox.Name = "Matkul3_textbox";
-            this.Matkul3_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul3_textbox.TabIndex = 3;
-            this.Matkul3_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul8_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul8_label.AutoSize = true;
+            this.Matkul8_label.Location = new System.Drawing.Point(3, 142);
+            this.Matkul8_label.Name = "Matkul8_label";
+            this.Matkul8_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul8_label.TabIndex = 7;
+            this.Matkul8_label.Text = "Rekomendasi : Pancasila";
+            this.Matkul8_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul2_textbox
+            // Matkul7_label
             // 
-            this.Matkul2_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul2_textbox.Location = new System.Drawing.Point(3, 24);
-            this.Matkul2_textbox.Name = "Matkul2_textbox";
-            this.Matkul2_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul2_textbox.TabIndex = 2;
-            this.Matkul2_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul7_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul7_label.AutoSize = true;
+            this.Matkul7_label.Location = new System.Drawing.Point(3, 122);
+            this.Matkul7_label.Name = "Matkul7_label";
+            this.Matkul7_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul7_label.TabIndex = 6;
+            this.Matkul7_label.Text = "Praktikum Pemrograman Berorientasi Objek";
+            this.Matkul7_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul1_textbox
+            // Matkul6_label
             // 
-            this.Matkul1_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul1_textbox.Location = new System.Drawing.Point(3, 3);
-            this.Matkul1_textbox.Name = "Matkul1_textbox";
-            this.Matkul1_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul1_textbox.TabIndex = 1;
-            this.Matkul1_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul6_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul6_label.AutoSize = true;
+            this.Matkul6_label.Location = new System.Drawing.Point(3, 102);
+            this.Matkul6_label.Name = "Matkul6_label";
+            this.Matkul6_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul6_label.TabIndex = 5;
+            this.Matkul6_label.Text = "Pemrograman Berorientasi Objek";
+            this.Matkul6_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul9_textbox
+            // Matkul5_label
             // 
-            this.Matkul9_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul9_textbox.Location = new System.Drawing.Point(3, 165);
-            this.Matkul9_textbox.Name = "Matkul9_textbox";
-            this.Matkul9_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul9_textbox.TabIndex = 9;
-            this.Matkul9_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul5_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul5_label.AutoSize = true;
+            this.Matkul5_label.Location = new System.Drawing.Point(3, 82);
+            this.Matkul5_label.Name = "Matkul5_label";
+            this.Matkul5_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul5_label.TabIndex = 4;
+            this.Matkul5_label.Text = "Arsitektur Komputer";
+            this.Matkul5_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul8_textbox
+            // Matkul4_label
             // 
-            this.Matkul8_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul8_textbox.Location = new System.Drawing.Point(3, 145);
-            this.Matkul8_textbox.Name = "Matkul8_textbox";
-            this.Matkul8_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul8_textbox.TabIndex = 8;
-            this.Matkul8_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul4_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul4_label.AutoSize = true;
+            this.Matkul4_label.Location = new System.Drawing.Point(3, 62);
+            this.Matkul4_label.Name = "Matkul4_label";
+            this.Matkul4_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul4_label.TabIndex = 3;
+            this.Matkul4_label.Text = "Praktikum Metode Numeris ";
+            this.Matkul4_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul7_textbox
+            // Matkul3_label
             // 
-            this.Matkul7_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul7_textbox.Location = new System.Drawing.Point(3, 125);
-            this.Matkul7_textbox.Name = "Matkul7_textbox";
-            this.Matkul7_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul7_textbox.TabIndex = 7;
-            this.Matkul7_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul3_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul3_label.AutoSize = true;
+            this.Matkul3_label.Location = new System.Drawing.Point(3, 42);
+            this.Matkul3_label.Name = "Matkul3_label";
+            this.Matkul3_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Matkul3_label.Size = new System.Drawing.Size(271, 20);
+            this.Matkul3_label.TabIndex = 2;
+            this.Matkul3_label.Text = "Metode Numeris";
+            this.Matkul3_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul6_textbox
+            // Matkul2_label
             // 
-            this.Matkul6_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul6_textbox.Location = new System.Drawing.Point(3, 105);
-            this.Matkul6_textbox.Name = "Matkul6_textbox";
-            this.Matkul6_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul6_textbox.TabIndex = 6;
-            this.Matkul6_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul2_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul2_label.AutoSize = true;
+            this.Matkul2_label.Location = new System.Drawing.Point(3, 21);
+            this.Matkul2_label.Name = "Matkul2_label";
+            this.Matkul2_label.Size = new System.Drawing.Size(271, 21);
+            this.Matkul2_label.TabIndex = 1;
+            this.Matkul2_label.Text = "Fisika Teknik";
+            this.Matkul2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Matkul4_textbox
+            // Matkul1_label
             // 
-            this.Matkul4_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Matkul4_textbox.Location = new System.Drawing.Point(3, 65);
-            this.Matkul4_textbox.Name = "Matkul4_textbox";
-            this.Matkul4_textbox.Size = new System.Drawing.Size(278, 20);
-            this.Matkul4_textbox.TabIndex = 4;
-            this.Matkul4_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Matkul1_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Matkul1_label.AutoSize = true;
+            this.Matkul1_label.Location = new System.Drawing.Point(3, 0);
+            this.Matkul1_label.Name = "Matkul1_label";
+            this.Matkul1_label.Size = new System.Drawing.Size(271, 21);
+            this.Matkul1_label.TabIndex = 0;
+            this.Matkul1_label.Text = "Matematika Elektro";
+            this.Matkul1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Semester1_EditForm
+            // Button_table
+            // 
+            this.Button_table.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Button_table.ColumnCount = 1;
+            this.Button_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Button_table.Controls.Add(this.IsiNilai_Button, 0, 0);
+            this.Button_table.Controls.Add(this.tableLayoutPanel1, 0, 2);
+            this.Button_table.Controls.Add(this.Exit_button, 0, 1);
+            this.Button_table.Location = new System.Drawing.Point(676, 30);
+            this.Button_table.Name = "Button_table";
+            this.Button_table.RowCount = 3;
+            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.63158F));
+            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.36842F));
+            this.Button_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 81F));
+            this.Button_table.Size = new System.Drawing.Size(97, 139);
+            this.Button_table.TabIndex = 7;
+            // 
+            // IsiNilai_Button
+            // 
+            this.IsiNilai_Button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.IsiNilai_Button.Location = new System.Drawing.Point(3, 4);
+            this.IsiNilai_Button.Name = "IsiNilai_Button";
+            this.IsiNilai_Button.Size = new System.Drawing.Size(91, 21);
+            this.IsiNilai_Button.TabIndex = 6;
+            this.IsiNilai_Button.Text = "Isi Nilai";
+            this.IsiNilai_Button.UseVisualStyleBackColor = true;
+            this.IsiNilai_Button.Click += new System.EventHandler(this.IsiNilai_Button_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.skstotal_label, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.NilaiSKS_label, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.IPK_Label, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.NilaiIP_label, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Ip_Label, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Total_label, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.NilaiTotal_label, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 60);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.72727F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.27273F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(91, 76);
+            this.tableLayoutPanel1.TabIndex = 4;
+            // 
+            // skstotal_label
+            // 
+            this.skstotal_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.skstotal_label.AutoSize = true;
+            this.skstotal_label.Location = new System.Drawing.Point(3, 59);
+            this.skstotal_label.Name = "skstotal_label";
+            this.skstotal_label.Size = new System.Drawing.Size(39, 13);
+            this.skstotal_label.TabIndex = 7;
+            this.skstotal_label.Text = "SKS";
+            // 
+            // NilaiSKS_label
+            // 
+            this.NilaiSKS_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.NilaiSKS_label.AutoSize = true;
+            this.NilaiSKS_label.Location = new System.Drawing.Point(48, 59);
+            this.NilaiSKS_label.Name = "NilaiSKS_label";
+            this.NilaiSKS_label.Size = new System.Drawing.Size(40, 13);
+            this.NilaiSKS_label.TabIndex = 6;
+            this.NilaiSKS_label.Text = "label1";
+            // 
+            // IPK_Label
+            // 
+            this.IPK_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.IPK_Label.AutoSize = true;
+            this.IPK_Label.Location = new System.Drawing.Point(3, 38);
+            this.IPK_Label.Name = "IPK_Label";
+            this.IPK_Label.Size = new System.Drawing.Size(39, 13);
+            this.IPK_Label.TabIndex = 5;
+            this.IPK_Label.Text = "IPK";
+            // 
+            // NilaiIP_label
+            // 
+            this.NilaiIP_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.NilaiIP_label.AutoSize = true;
+            this.NilaiIP_label.Location = new System.Drawing.Point(48, 20);
+            this.NilaiIP_label.Name = "NilaiIP_label";
+            this.NilaiIP_label.Size = new System.Drawing.Size(40, 13);
+            this.NilaiIP_label.TabIndex = 3;
+            this.NilaiIP_label.Text = "label1";
+            // 
+            // Ip_Label
+            // 
+            this.Ip_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Ip_Label.AutoSize = true;
+            this.Ip_Label.Location = new System.Drawing.Point(3, 20);
+            this.Ip_Label.Name = "Ip_Label";
+            this.Ip_Label.Size = new System.Drawing.Size(39, 13);
+            this.Ip_Label.TabIndex = 2;
+            this.Ip_Label.Text = "IP";
+            // 
+            // Total_label
+            // 
+            this.Total_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Total_label.AutoSize = true;
+            this.Total_label.Location = new System.Drawing.Point(3, 2);
+            this.Total_label.Name = "Total_label";
+            this.Total_label.Size = new System.Drawing.Size(39, 13);
+            this.Total_label.TabIndex = 0;
+            this.Total_label.Text = "Total";
+            // 
+            // NilaiTotal_label
+            // 
+            this.NilaiTotal_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.NilaiTotal_label.AutoSize = true;
+            this.NilaiTotal_label.Location = new System.Drawing.Point(48, 2);
+            this.NilaiTotal_label.Name = "NilaiTotal_label";
+            this.NilaiTotal_label.Size = new System.Drawing.Size(40, 13);
+            this.NilaiTotal_label.TabIndex = 1;
+            this.NilaiTotal_label.Text = "label1";
+            // 
+            // Exit_button
+            // 
+            this.Exit_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Exit_button.Location = new System.Drawing.Point(3, 33);
+            this.Exit_button.Name = "Exit_button";
+            this.Exit_button.Size = new System.Drawing.Size(91, 21);
+            this.Exit_button.TabIndex = 3;
+            this.Exit_button.Text = "Exit";
+            this.Exit_button.UseVisualStyleBackColor = true;
+            this.Exit_button.Click += new System.EventHandler(this.Exit_button_Click);
+            // 
+            // Semester2_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Table_Semester);
-            this.Name = "Semester1_EditForm";
+            this.Name = "Semester2_Form";
             this.Text = "Semester1_Form";
             this.Table_Semester.ResumeLayout(false);
             this.Table_Semester.PerformLayout();
-            this.Button_table.ResumeLayout(false);
             this.Krs_table.ResumeLayout(false);
             this.Krs_table.PerformLayout();
             this.Bobotsks_table.ResumeLayout(false);
@@ -1216,6 +1398,9 @@
             this.Nomor_table.PerformLayout();
             this.Matkul_table.ResumeLayout(false);
             this.Matkul_table.PerformLayout();
+            this.Button_table.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1257,6 +1442,16 @@
         private System.Windows.Forms.Label Bobot3_label;
         private System.Windows.Forms.Label Bobot2_label;
         private System.Windows.Forms.Label Bobot1_label;
+        private System.Windows.Forms.Label Nilai10_label;
+        private System.Windows.Forms.Label Nilai9_label;
+        private System.Windows.Forms.Label Nilai8_label;
+        private System.Windows.Forms.Label Nilai7_label;
+        private System.Windows.Forms.Label Nilai6_label;
+        private System.Windows.Forms.Label Nilai5_label;
+        private System.Windows.Forms.Label Nilai4_label;
+        private System.Windows.Forms.Label Nilai3_label;
+        private System.Windows.Forms.Label Nilai2_label;
+        private System.Windows.Forms.Label Nilai1_label;
         private System.Windows.Forms.Label Sks10_label;
         private System.Windows.Forms.Label Sks8_label;
         private System.Windows.Forms.Label Sks7_label;
@@ -1277,27 +1472,25 @@
         private System.Windows.Forms.Label Nomor3_label;
         private System.Windows.Forms.Label Nomor2_label;
         private System.Windows.Forms.Label Nomor1_label;
-        private System.Windows.Forms.Button Save_button;
-        private System.Windows.Forms.Button Recommend_button;
-        private System.Windows.Forms.TextBox Nilai10_textbox;
-        private System.Windows.Forms.TextBox Nilai9_textbox;
-        private System.Windows.Forms.TextBox Nilai8_textbox;
-        private System.Windows.Forms.TextBox Nilai7_textbox;
-        private System.Windows.Forms.TextBox Nilai6_textbox;
-        private System.Windows.Forms.TextBox Nilai5_textbox;
-        private System.Windows.Forms.TextBox Nilai4_textbox;
-        private System.Windows.Forms.TextBox Nilai3_textbox;
-        private System.Windows.Forms.TextBox Nilai2_textbox;
-        private System.Windows.Forms.TextBox Nilai1_textbox;
-        private System.Windows.Forms.TextBox Matkul10_textbox;
-        private System.Windows.Forms.TextBox Matkul5_textbox;
-        private System.Windows.Forms.TextBox Matkul3_textbox;
-        private System.Windows.Forms.TextBox Matkul2_textbox;
-        private System.Windows.Forms.TextBox Matkul1_textbox;
-        private System.Windows.Forms.TextBox Matkul9_textbox;
-        private System.Windows.Forms.TextBox Matkul8_textbox;
-        private System.Windows.Forms.TextBox Matkul7_textbox;
-        private System.Windows.Forms.TextBox Matkul6_textbox;
-        private System.Windows.Forms.TextBox Matkul4_textbox;
+        private System.Windows.Forms.Label Matkul10_label;
+        private System.Windows.Forms.Label Matkul9_label;
+        private System.Windows.Forms.Label Matkul8_label;
+        private System.Windows.Forms.Label Matkul7_label;
+        private System.Windows.Forms.Label Matkul6_label;
+        private System.Windows.Forms.Label Matkul5_label;
+        private System.Windows.Forms.Label Matkul4_label;
+        private System.Windows.Forms.Label Matkul3_label;
+        private System.Windows.Forms.Label Matkul2_label;
+        private System.Windows.Forms.Label Matkul1_label;
+        private System.Windows.Forms.Button Exit_button;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label skstotal_label;
+        private System.Windows.Forms.Label NilaiSKS_label;
+        private System.Windows.Forms.Label IPK_Label;
+        private System.Windows.Forms.Label NilaiIP_label;
+        private System.Windows.Forms.Label Ip_Label;
+        private System.Windows.Forms.Label NilaiTotal_label;
+        private System.Windows.Forms.Label Total_label;
+        private System.Windows.Forms.Button IsiNilai_Button;
     }
 }

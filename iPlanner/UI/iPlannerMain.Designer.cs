@@ -29,51 +29,51 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester8_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester8_label = new System.Windows.Forms.Label();
+            this.Semester8_button = new System.Windows.Forms.Button();
+            this.EditSemester8_button = new System.Windows.Forms.Button();
+            this.Semester7_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester7_label = new System.Windows.Forms.Label();
+            this.Semester7_button = new System.Windows.Forms.Button();
+            this.EditSemester7_button = new System.Windows.Forms.Button();
+            this.Semester6_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester6_label = new System.Windows.Forms.Label();
+            this.Semester6_button = new System.Windows.Forms.Button();
+            this.EditSemester6_button = new System.Windows.Forms.Button();
+            this.Semester5_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester5_label = new System.Windows.Forms.Label();
+            this.Semester5_button = new System.Windows.Forms.Button();
+            this.EditSemester5_button = new System.Windows.Forms.Button();
+            this.Semester3_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester3_label = new System.Windows.Forms.Label();
+            this.Semester3_button = new System.Windows.Forms.Button();
+            this.EditSemester3_button = new System.Windows.Forms.Button();
+            this.Semester2_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester2_label = new System.Windows.Forms.Label();
+            this.Semester2_button = new System.Windows.Forms.Button();
+            this.EditSemester2_button = new System.Windows.Forms.Button();
             this.LogoMain = new System.Windows.Forms.PictureBox();
             this.Tagline = new System.Windows.Forms.Label();
             this.Profile_button = new System.Windows.Forms.Button();
+            this.Semester4_table = new System.Windows.Forms.TableLayoutPanel();
+            this.Semester4_label = new System.Windows.Forms.Label();
+            this.Semester4_button = new System.Windows.Forms.Button();
+            this.EditSemester4_button = new System.Windows.Forms.Button();
             this.Semester1_table = new System.Windows.Forms.TableLayoutPanel();
             this.Semester1_button = new System.Windows.Forms.Button();
             this.EditSemester1_button = new System.Windows.Forms.Button();
-            this.Semester2_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester2_button = new System.Windows.Forms.Button();
-            this.EditSemester2_button = new System.Windows.Forms.Button();
-            this.Semester3_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester3_button = new System.Windows.Forms.Button();
-            this.EditSemester3_button = new System.Windows.Forms.Button();
-            this.Semester4_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester4_button = new System.Windows.Forms.Button();
-            this.EditSemester4_button = new System.Windows.Forms.Button();
-            this.Semester5_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester5_button = new System.Windows.Forms.Button();
-            this.EditSemester5_button = new System.Windows.Forms.Button();
-            this.Semester6_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester6_button = new System.Windows.Forms.Button();
-            this.EditSemester6_button = new System.Windows.Forms.Button();
-            this.Semester7_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester7_button = new System.Windows.Forms.Button();
-            this.EditSemester7_button = new System.Windows.Forms.Button();
-            this.Semester8_table = new System.Windows.Forms.TableLayoutPanel();
-            this.Semester8_button = new System.Windows.Forms.Button();
-            this.EditSemester8_button = new System.Windows.Forms.Button();
             this.Semester1_label = new System.Windows.Forms.Label();
-            this.Semester2_label = new System.Windows.Forms.Label();
-            this.Semester3_label = new System.Windows.Forms.Label();
-            this.Semester4_label = new System.Windows.Forms.Label();
-            this.Semester5_label = new System.Windows.Forms.Label();
-            this.Semester6_label = new System.Windows.Forms.Label();
-            this.Semester7_label = new System.Windows.Forms.Label();
-            this.Semester8_label = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoMain)).BeginInit();
-            this.Semester1_table.SuspendLayout();
-            this.Semester2_table.SuspendLayout();
-            this.Semester3_table.SuspendLayout();
-            this.Semester4_table.SuspendLayout();
-            this.Semester5_table.SuspendLayout();
-            this.Semester6_table.SuspendLayout();
-            this.Semester7_table.SuspendLayout();
             this.Semester8_table.SuspendLayout();
+            this.Semester7_table.SuspendLayout();
+            this.Semester6_table.SuspendLayout();
+            this.Semester5_table.SuspendLayout();
+            this.Semester3_table.SuspendLayout();
+            this.Semester2_table.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LogoMain)).BeginInit();
+            this.Semester4_table.SuspendLayout();
+            this.Semester1_table.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -109,6 +109,332 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(254, 426);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // Semester8_table
+            // 
+            this.Semester8_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester8_table.ColumnCount = 3;
+            this.Semester8_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.40609F));
+            this.Semester8_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.59391F));
+            this.Semester8_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester8_table.Controls.Add(this.Semester8_label, 0, 0);
+            this.Semester8_table.Controls.Add(this.Semester8_button, 1, 0);
+            this.Semester8_table.Controls.Add(this.EditSemester8_button, 2, 0);
+            this.Semester8_table.Location = new System.Drawing.Point(3, 392);
+            this.Semester8_table.Name = "Semester8_table";
+            this.Semester8_table.RowCount = 1;
+            this.Semester8_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester8_table.Size = new System.Drawing.Size(248, 31);
+            this.Semester8_table.TabIndex = 7;
+            // 
+            // Semester8_label
+            // 
+            this.Semester8_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester8_label.AutoSize = true;
+            this.Semester8_label.Location = new System.Drawing.Point(3, 9);
+            this.Semester8_label.Name = "Semester8_label";
+            this.Semester8_label.Size = new System.Drawing.Size(113, 13);
+            this.Semester8_label.TabIndex = 7;
+            this.Semester8_label.Text = "Semester 8";
+            this.Semester8_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester8_button
+            // 
+            this.Semester8_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester8_button.Location = new System.Drawing.Point(122, 3);
+            this.Semester8_button.Name = "Semester8_button";
+            this.Semester8_button.Size = new System.Drawing.Size(72, 25);
+            this.Semester8_button.TabIndex = 4;
+            this.Semester8_button.Text = "Semester 8";
+            this.Semester8_button.UseVisualStyleBackColor = true;
+            // 
+            // EditSemester8_button
+            // 
+            this.EditSemester8_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester8_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester8_button.Name = "EditSemester8_button";
+            this.EditSemester8_button.Size = new System.Drawing.Size(45, 25);
+            this.EditSemester8_button.TabIndex = 5;
+            this.EditSemester8_button.Text = "Edit";
+            this.EditSemester8_button.UseVisualStyleBackColor = true;
+            // 
+            // Semester7_table
+            // 
+            this.Semester7_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester7_table.ColumnCount = 3;
+            this.Semester7_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.40609F));
+            this.Semester7_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.59391F));
+            this.Semester7_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester7_table.Controls.Add(this.Semester7_label, 0, 0);
+            this.Semester7_table.Controls.Add(this.Semester7_button, 1, 0);
+            this.Semester7_table.Controls.Add(this.EditSemester7_button, 2, 0);
+            this.Semester7_table.Location = new System.Drawing.Point(3, 357);
+            this.Semester7_table.Name = "Semester7_table";
+            this.Semester7_table.RowCount = 1;
+            this.Semester7_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester7_table.Size = new System.Drawing.Size(248, 29);
+            this.Semester7_table.TabIndex = 12;
+            // 
+            // Semester7_label
+            // 
+            this.Semester7_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester7_label.AutoSize = true;
+            this.Semester7_label.Location = new System.Drawing.Point(3, 8);
+            this.Semester7_label.Name = "Semester7_label";
+            this.Semester7_label.Size = new System.Drawing.Size(113, 13);
+            this.Semester7_label.TabIndex = 7;
+            this.Semester7_label.Text = "Semester 7";
+            this.Semester7_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester7_button
+            // 
+            this.Semester7_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester7_button.Location = new System.Drawing.Point(122, 3);
+            this.Semester7_button.Name = "Semester7_button";
+            this.Semester7_button.Size = new System.Drawing.Size(72, 23);
+            this.Semester7_button.TabIndex = 4;
+            this.Semester7_button.Text = "Semester 7";
+            this.Semester7_button.UseVisualStyleBackColor = true;
+            // 
+            // EditSemester7_button
+            // 
+            this.EditSemester7_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester7_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester7_button.Name = "EditSemester7_button";
+            this.EditSemester7_button.Size = new System.Drawing.Size(45, 23);
+            this.EditSemester7_button.TabIndex = 5;
+            this.EditSemester7_button.Text = "Edit";
+            this.EditSemester7_button.UseVisualStyleBackColor = true;
+            // 
+            // Semester6_table
+            // 
+            this.Semester6_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester6_table.ColumnCount = 3;
+            this.Semester6_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
+            this.Semester6_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
+            this.Semester6_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester6_table.Controls.Add(this.Semester6_label, 0, 0);
+            this.Semester6_table.Controls.Add(this.Semester6_button, 1, 0);
+            this.Semester6_table.Controls.Add(this.EditSemester6_button, 2, 0);
+            this.Semester6_table.Location = new System.Drawing.Point(3, 320);
+            this.Semester6_table.Name = "Semester6_table";
+            this.Semester6_table.RowCount = 1;
+            this.Semester6_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester6_table.Size = new System.Drawing.Size(248, 31);
+            this.Semester6_table.TabIndex = 7;
+            // 
+            // Semester6_label
+            // 
+            this.Semester6_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester6_label.AutoSize = true;
+            this.Semester6_label.Location = new System.Drawing.Point(3, 9);
+            this.Semester6_label.Name = "Semester6_label";
+            this.Semester6_label.Size = new System.Drawing.Size(114, 13);
+            this.Semester6_label.TabIndex = 7;
+            this.Semester6_label.Text = "Semester 6";
+            this.Semester6_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester6_button
+            // 
+            this.Semester6_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester6_button.Location = new System.Drawing.Point(123, 3);
+            this.Semester6_button.Name = "Semester6_button";
+            this.Semester6_button.Size = new System.Drawing.Size(71, 25);
+            this.Semester6_button.TabIndex = 4;
+            this.Semester6_button.Text = "Semester 6";
+            this.Semester6_button.UseVisualStyleBackColor = true;
+            // 
+            // EditSemester6_button
+            // 
+            this.EditSemester6_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester6_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester6_button.Name = "EditSemester6_button";
+            this.EditSemester6_button.Size = new System.Drawing.Size(45, 25);
+            this.EditSemester6_button.TabIndex = 5;
+            this.EditSemester6_button.Text = "Edit";
+            this.EditSemester6_button.UseVisualStyleBackColor = true;
+            // 
+            // Semester5_table
+            // 
+            this.Semester5_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester5_table.ColumnCount = 3;
+            this.Semester5_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
+            this.Semester5_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
+            this.Semester5_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester5_table.Controls.Add(this.Semester5_label, 0, 0);
+            this.Semester5_table.Controls.Add(this.Semester5_button, 1, 0);
+            this.Semester5_table.Controls.Add(this.EditSemester5_button, 2, 0);
+            this.Semester5_table.Location = new System.Drawing.Point(3, 283);
+            this.Semester5_table.Name = "Semester5_table";
+            this.Semester5_table.RowCount = 1;
+            this.Semester5_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester5_table.Size = new System.Drawing.Size(248, 31);
+            this.Semester5_table.TabIndex = 7;
+            // 
+            // Semester5_label
+            // 
+            this.Semester5_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester5_label.AutoSize = true;
+            this.Semester5_label.Location = new System.Drawing.Point(3, 9);
+            this.Semester5_label.Name = "Semester5_label";
+            this.Semester5_label.Size = new System.Drawing.Size(114, 13);
+            this.Semester5_label.TabIndex = 7;
+            this.Semester5_label.Text = "Semester 5";
+            this.Semester5_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester5_button
+            // 
+            this.Semester5_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester5_button.Location = new System.Drawing.Point(123, 3);
+            this.Semester5_button.Name = "Semester5_button";
+            this.Semester5_button.Size = new System.Drawing.Size(71, 25);
+            this.Semester5_button.TabIndex = 4;
+            this.Semester5_button.Text = "Semester 5";
+            this.Semester5_button.UseVisualStyleBackColor = true;
+            // 
+            // EditSemester5_button
+            // 
+            this.EditSemester5_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester5_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester5_button.Name = "EditSemester5_button";
+            this.EditSemester5_button.Size = new System.Drawing.Size(45, 25);
+            this.EditSemester5_button.TabIndex = 5;
+            this.EditSemester5_button.Text = "Edit";
+            this.EditSemester5_button.UseVisualStyleBackColor = true;
+            // 
+            // Semester3_table
+            // 
+            this.Semester3_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester3_table.ColumnCount = 3;
+            this.Semester3_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
+            this.Semester3_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
+            this.Semester3_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester3_table.Controls.Add(this.Semester3_label, 0, 0);
+            this.Semester3_table.Controls.Add(this.Semester3_button, 1, 0);
+            this.Semester3_table.Controls.Add(this.EditSemester3_button, 2, 0);
+            this.Semester3_table.Location = new System.Drawing.Point(3, 208);
+            this.Semester3_table.Name = "Semester3_table";
+            this.Semester3_table.RowCount = 1;
+            this.Semester3_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester3_table.Size = new System.Drawing.Size(248, 32);
+            this.Semester3_table.TabIndex = 7;
+            // 
+            // Semester3_label
+            // 
+            this.Semester3_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester3_label.AutoSize = true;
+            this.Semester3_label.Location = new System.Drawing.Point(3, 9);
+            this.Semester3_label.Name = "Semester3_label";
+            this.Semester3_label.Size = new System.Drawing.Size(114, 13);
+            this.Semester3_label.TabIndex = 7;
+            this.Semester3_label.Text = "Semester 3";
+            this.Semester3_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester3_button
+            // 
+            this.Semester3_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester3_button.Location = new System.Drawing.Point(123, 3);
+            this.Semester3_button.Name = "Semester3_button";
+            this.Semester3_button.Size = new System.Drawing.Size(71, 26);
+            this.Semester3_button.TabIndex = 4;
+            this.Semester3_button.Text = "Semester 3";
+            this.Semester3_button.UseVisualStyleBackColor = true;
+            // 
+            // EditSemester3_button
+            // 
+            this.EditSemester3_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester3_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester3_button.Name = "EditSemester3_button";
+            this.EditSemester3_button.Size = new System.Drawing.Size(45, 26);
+            this.EditSemester3_button.TabIndex = 5;
+            this.EditSemester3_button.Text = "Edit";
+            this.EditSemester3_button.UseVisualStyleBackColor = true;
+            // 
+            // Semester2_table
+            // 
+            this.Semester2_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester2_table.ColumnCount = 3;
+            this.Semester2_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
+            this.Semester2_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
+            this.Semester2_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester2_table.Controls.Add(this.Semester2_label, 0, 0);
+            this.Semester2_table.Controls.Add(this.Semester2_button, 1, 0);
+            this.Semester2_table.Controls.Add(this.EditSemester2_button, 2, 0);
+            this.Semester2_table.Location = new System.Drawing.Point(3, 172);
+            this.Semester2_table.Name = "Semester2_table";
+            this.Semester2_table.RowCount = 1;
+            this.Semester2_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester2_table.Size = new System.Drawing.Size(248, 30);
+            this.Semester2_table.TabIndex = 6;
+            // 
+            // Semester2_label
+            // 
+            this.Semester2_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester2_label.AutoSize = true;
+            this.Semester2_label.Location = new System.Drawing.Point(3, 8);
+            this.Semester2_label.Name = "Semester2_label";
+            this.Semester2_label.Size = new System.Drawing.Size(114, 13);
+            this.Semester2_label.TabIndex = 7;
+            this.Semester2_label.Text = "Semester 2";
+            this.Semester2_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester2_button
+            // 
+            this.Semester2_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester2_button.Location = new System.Drawing.Point(123, 3);
+            this.Semester2_button.Name = "Semester2_button";
+            this.Semester2_button.Size = new System.Drawing.Size(71, 24);
+            this.Semester2_button.TabIndex = 4;
+            this.Semester2_button.Text = "Semester 2";
+            this.Semester2_button.UseVisualStyleBackColor = true;
+            this.Semester2_button.Click += new System.EventHandler(this.Semester2_button_Click);
+            // 
+            // EditSemester2_button
+            // 
+            this.EditSemester2_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester2_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester2_button.Name = "EditSemester2_button";
+            this.EditSemester2_button.Size = new System.Drawing.Size(45, 24);
+            this.EditSemester2_button.TabIndex = 5;
+            this.EditSemester2_button.Text = "Edit";
+            this.EditSemester2_button.UseVisualStyleBackColor = true;
+            this.EditSemester2_button.Click += new System.EventHandler(this.EditSemester2_button_Click);
+            // 
             // LogoMain
             // 
             this.LogoMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -143,6 +469,60 @@
             this.Profile_button.UseVisualStyleBackColor = true;
             this.Profile_button.Click += new System.EventHandler(this.Profile_Click);
             // 
+            // Semester4_table
+            // 
+            this.Semester4_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester4_table.ColumnCount = 3;
+            this.Semester4_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
+            this.Semester4_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
+            this.Semester4_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.Semester4_table.Controls.Add(this.Semester4_label, 0, 0);
+            this.Semester4_table.Controls.Add(this.Semester4_button, 1, 0);
+            this.Semester4_table.Controls.Add(this.EditSemester4_button, 2, 0);
+            this.Semester4_table.Location = new System.Drawing.Point(3, 246);
+            this.Semester4_table.Name = "Semester4_table";
+            this.Semester4_table.RowCount = 1;
+            this.Semester4_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.Semester4_table.Size = new System.Drawing.Size(248, 31);
+            this.Semester4_table.TabIndex = 11;
+            // 
+            // Semester4_label
+            // 
+            this.Semester4_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester4_label.AutoSize = true;
+            this.Semester4_label.Location = new System.Drawing.Point(3, 9);
+            this.Semester4_label.Name = "Semester4_label";
+            this.Semester4_label.Size = new System.Drawing.Size(114, 13);
+            this.Semester4_label.TabIndex = 7;
+            this.Semester4_label.Text = "Semester 4";
+            this.Semester4_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Semester4_button
+            // 
+            this.Semester4_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Semester4_button.Location = new System.Drawing.Point(123, 3);
+            this.Semester4_button.Name = "Semester4_button";
+            this.Semester4_button.Size = new System.Drawing.Size(71, 25);
+            this.Semester4_button.TabIndex = 4;
+            this.Semester4_button.Text = "Semester 4";
+            this.Semester4_button.UseVisualStyleBackColor = true;
+            // 
+            // EditSemester4_button
+            // 
+            this.EditSemester4_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditSemester4_button.Location = new System.Drawing.Point(200, 3);
+            this.EditSemester4_button.Name = "EditSemester4_button";
+            this.EditSemester4_button.Size = new System.Drawing.Size(45, 25);
+            this.EditSemester4_button.TabIndex = 5;
+            this.EditSemester4_button.Text = "Edit";
+            this.EditSemester4_button.UseVisualStyleBackColor = true;
+            // 
             // Semester1_table
             // 
             this.Semester1_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -173,6 +553,7 @@
             this.Semester1_button.TabIndex = 4;
             this.Semester1_button.Text = "Semester 1";
             this.Semester1_button.UseVisualStyleBackColor = true;
+            this.Semester1_button.Click += new System.EventHandler(this.Semester1_button_Click);
             // 
             // EditSemester1_button
             // 
@@ -187,307 +568,6 @@
             this.EditSemester1_button.UseVisualStyleBackColor = true;
             this.EditSemester1_button.Click += new System.EventHandler(this.EditSemester1_button_Click);
             // 
-            // Semester2_table
-            // 
-            this.Semester2_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester2_table.ColumnCount = 3;
-            this.Semester2_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
-            this.Semester2_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
-            this.Semester2_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester2_table.Controls.Add(this.Semester2_label, 0, 0);
-            this.Semester2_table.Controls.Add(this.Semester2_button, 1, 0);
-            this.Semester2_table.Controls.Add(this.EditSemester2_button, 2, 0);
-            this.Semester2_table.Location = new System.Drawing.Point(3, 172);
-            this.Semester2_table.Name = "Semester2_table";
-            this.Semester2_table.RowCount = 1;
-            this.Semester2_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester2_table.Size = new System.Drawing.Size(248, 30);
-            this.Semester2_table.TabIndex = 6;
-            // 
-            // Semester2_button
-            // 
-            this.Semester2_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester2_button.Location = new System.Drawing.Point(123, 3);
-            this.Semester2_button.Name = "Semester2_button";
-            this.Semester2_button.Size = new System.Drawing.Size(71, 24);
-            this.Semester2_button.TabIndex = 4;
-            this.Semester2_button.Text = "Semester 2";
-            this.Semester2_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester2_button
-            // 
-            this.EditSemester2_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester2_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester2_button.Name = "EditSemester2_button";
-            this.EditSemester2_button.Size = new System.Drawing.Size(45, 24);
-            this.EditSemester2_button.TabIndex = 5;
-            this.EditSemester2_button.Text = "Edit";
-            this.EditSemester2_button.UseVisualStyleBackColor = true;
-            // 
-            // Semester3_table
-            // 
-            this.Semester3_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester3_table.ColumnCount = 3;
-            this.Semester3_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
-            this.Semester3_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
-            this.Semester3_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester3_table.Controls.Add(this.Semester3_label, 0, 0);
-            this.Semester3_table.Controls.Add(this.Semester3_button, 1, 0);
-            this.Semester3_table.Controls.Add(this.EditSemester3_button, 2, 0);
-            this.Semester3_table.Location = new System.Drawing.Point(3, 208);
-            this.Semester3_table.Name = "Semester3_table";
-            this.Semester3_table.RowCount = 1;
-            this.Semester3_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester3_table.Size = new System.Drawing.Size(248, 32);
-            this.Semester3_table.TabIndex = 7;
-            // 
-            // Semester3_button
-            // 
-            this.Semester3_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester3_button.Location = new System.Drawing.Point(123, 3);
-            this.Semester3_button.Name = "Semester3_button";
-            this.Semester3_button.Size = new System.Drawing.Size(71, 26);
-            this.Semester3_button.TabIndex = 4;
-            this.Semester3_button.Text = "Semester 3";
-            this.Semester3_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester3_button
-            // 
-            this.EditSemester3_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester3_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester3_button.Name = "EditSemester3_button";
-            this.EditSemester3_button.Size = new System.Drawing.Size(45, 26);
-            this.EditSemester3_button.TabIndex = 5;
-            this.EditSemester3_button.Text = "Edit";
-            this.EditSemester3_button.UseVisualStyleBackColor = true;
-            // 
-            // Semester4_table
-            // 
-            this.Semester4_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester4_table.ColumnCount = 3;
-            this.Semester4_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
-            this.Semester4_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
-            this.Semester4_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester4_table.Controls.Add(this.Semester4_label, 0, 0);
-            this.Semester4_table.Controls.Add(this.Semester4_button, 1, 0);
-            this.Semester4_table.Controls.Add(this.EditSemester4_button, 2, 0);
-            this.Semester4_table.Location = new System.Drawing.Point(3, 246);
-            this.Semester4_table.Name = "Semester4_table";
-            this.Semester4_table.RowCount = 1;
-            this.Semester4_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester4_table.Size = new System.Drawing.Size(248, 31);
-            this.Semester4_table.TabIndex = 11;
-            // 
-            // Semester4_button
-            // 
-            this.Semester4_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester4_button.Location = new System.Drawing.Point(123, 3);
-            this.Semester4_button.Name = "Semester4_button";
-            this.Semester4_button.Size = new System.Drawing.Size(71, 25);
-            this.Semester4_button.TabIndex = 4;
-            this.Semester4_button.Text = "Semester 4";
-            this.Semester4_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester4_button
-            // 
-            this.EditSemester4_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester4_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester4_button.Name = "EditSemester4_button";
-            this.EditSemester4_button.Size = new System.Drawing.Size(45, 25);
-            this.EditSemester4_button.TabIndex = 5;
-            this.EditSemester4_button.Text = "Edit";
-            this.EditSemester4_button.UseVisualStyleBackColor = true;
-            // 
-            // Semester5_table
-            // 
-            this.Semester5_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester5_table.ColumnCount = 3;
-            this.Semester5_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
-            this.Semester5_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
-            this.Semester5_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester5_table.Controls.Add(this.Semester5_label, 0, 0);
-            this.Semester5_table.Controls.Add(this.Semester5_button, 1, 0);
-            this.Semester5_table.Controls.Add(this.EditSemester5_button, 2, 0);
-            this.Semester5_table.Location = new System.Drawing.Point(3, 283);
-            this.Semester5_table.Name = "Semester5_table";
-            this.Semester5_table.RowCount = 1;
-            this.Semester5_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester5_table.Size = new System.Drawing.Size(248, 31);
-            this.Semester5_table.TabIndex = 7;
-            // 
-            // Semester5_button
-            // 
-            this.Semester5_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester5_button.Location = new System.Drawing.Point(123, 3);
-            this.Semester5_button.Name = "Semester5_button";
-            this.Semester5_button.Size = new System.Drawing.Size(71, 25);
-            this.Semester5_button.TabIndex = 4;
-            this.Semester5_button.Text = "Semester 5";
-            this.Semester5_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester5_button
-            // 
-            this.EditSemester5_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester5_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester5_button.Name = "EditSemester5_button";
-            this.EditSemester5_button.Size = new System.Drawing.Size(45, 25);
-            this.EditSemester5_button.TabIndex = 5;
-            this.EditSemester5_button.Text = "Edit";
-            this.EditSemester5_button.UseVisualStyleBackColor = true;
-            // 
-            // Semester6_table
-            // 
-            this.Semester6_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester6_table.ColumnCount = 3;
-            this.Semester6_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.9137F));
-            this.Semester6_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.0863F));
-            this.Semester6_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester6_table.Controls.Add(this.Semester6_label, 0, 0);
-            this.Semester6_table.Controls.Add(this.Semester6_button, 1, 0);
-            this.Semester6_table.Controls.Add(this.EditSemester6_button, 2, 0);
-            this.Semester6_table.Location = new System.Drawing.Point(3, 320);
-            this.Semester6_table.Name = "Semester6_table";
-            this.Semester6_table.RowCount = 1;
-            this.Semester6_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester6_table.Size = new System.Drawing.Size(248, 31);
-            this.Semester6_table.TabIndex = 7;
-            // 
-            // Semester6_button
-            // 
-            this.Semester6_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester6_button.Location = new System.Drawing.Point(123, 3);
-            this.Semester6_button.Name = "Semester6_button";
-            this.Semester6_button.Size = new System.Drawing.Size(71, 25);
-            this.Semester6_button.TabIndex = 4;
-            this.Semester6_button.Text = "Semester 6";
-            this.Semester6_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester6_button
-            // 
-            this.EditSemester6_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester6_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester6_button.Name = "EditSemester6_button";
-            this.EditSemester6_button.Size = new System.Drawing.Size(45, 25);
-            this.EditSemester6_button.TabIndex = 5;
-            this.EditSemester6_button.Text = "Edit";
-            this.EditSemester6_button.UseVisualStyleBackColor = true;
-            // 
-            // Semester7_table
-            // 
-            this.Semester7_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester7_table.ColumnCount = 3;
-            this.Semester7_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.40609F));
-            this.Semester7_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.59391F));
-            this.Semester7_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester7_table.Controls.Add(this.Semester7_label, 0, 0);
-            this.Semester7_table.Controls.Add(this.Semester7_button, 1, 0);
-            this.Semester7_table.Controls.Add(this.EditSemester7_button, 2, 0);
-            this.Semester7_table.Location = new System.Drawing.Point(3, 357);
-            this.Semester7_table.Name = "Semester7_table";
-            this.Semester7_table.RowCount = 1;
-            this.Semester7_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester7_table.Size = new System.Drawing.Size(248, 29);
-            this.Semester7_table.TabIndex = 12;
-            // 
-            // Semester7_button
-            // 
-            this.Semester7_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester7_button.Location = new System.Drawing.Point(122, 3);
-            this.Semester7_button.Name = "Semester7_button";
-            this.Semester7_button.Size = new System.Drawing.Size(72, 23);
-            this.Semester7_button.TabIndex = 4;
-            this.Semester7_button.Text = "Semester 7";
-            this.Semester7_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester7_button
-            // 
-            this.EditSemester7_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester7_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester7_button.Name = "EditSemester7_button";
-            this.EditSemester7_button.Size = new System.Drawing.Size(45, 23);
-            this.EditSemester7_button.TabIndex = 5;
-            this.EditSemester7_button.Text = "Edit";
-            this.EditSemester7_button.UseVisualStyleBackColor = true;
-            // 
-            // Semester8_table
-            // 
-            this.Semester8_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester8_table.ColumnCount = 3;
-            this.Semester8_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.40609F));
-            this.Semester8_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.59391F));
-            this.Semester8_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.Semester8_table.Controls.Add(this.Semester8_label, 0, 0);
-            this.Semester8_table.Controls.Add(this.Semester8_button, 1, 0);
-            this.Semester8_table.Controls.Add(this.EditSemester8_button, 2, 0);
-            this.Semester8_table.Location = new System.Drawing.Point(3, 392);
-            this.Semester8_table.Name = "Semester8_table";
-            this.Semester8_table.RowCount = 1;
-            this.Semester8_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Semester8_table.Size = new System.Drawing.Size(248, 31);
-            this.Semester8_table.TabIndex = 7;
-            // 
-            // Semester8_button
-            // 
-            this.Semester8_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester8_button.Location = new System.Drawing.Point(122, 3);
-            this.Semester8_button.Name = "Semester8_button";
-            this.Semester8_button.Size = new System.Drawing.Size(72, 25);
-            this.Semester8_button.TabIndex = 4;
-            this.Semester8_button.Text = "Semester 8";
-            this.Semester8_button.UseVisualStyleBackColor = true;
-            // 
-            // EditSemester8_button
-            // 
-            this.EditSemester8_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditSemester8_button.Location = new System.Drawing.Point(200, 3);
-            this.EditSemester8_button.Name = "EditSemester8_button";
-            this.EditSemester8_button.Size = new System.Drawing.Size(45, 25);
-            this.EditSemester8_button.TabIndex = 5;
-            this.EditSemester8_button.Text = "Edit";
-            this.EditSemester8_button.UseVisualStyleBackColor = true;
-            // 
             // Semester1_label
             // 
             this.Semester1_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -499,83 +579,6 @@
             this.Semester1_label.Text = "Semester 1";
             this.Semester1_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Semester2_label
-            // 
-            this.Semester2_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester2_label.AutoSize = true;
-            this.Semester2_label.Location = new System.Drawing.Point(3, 8);
-            this.Semester2_label.Name = "Semester2_label";
-            this.Semester2_label.Size = new System.Drawing.Size(114, 13);
-            this.Semester2_label.TabIndex = 7;
-            this.Semester2_label.Text = "Semester 2";
-            this.Semester2_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Semester3_label
-            // 
-            this.Semester3_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester3_label.AutoSize = true;
-            this.Semester3_label.Location = new System.Drawing.Point(3, 9);
-            this.Semester3_label.Name = "Semester3_label";
-            this.Semester3_label.Size = new System.Drawing.Size(114, 13);
-            this.Semester3_label.TabIndex = 7;
-            this.Semester3_label.Text = "Semester 3";
-            this.Semester3_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Semester4_label
-            // 
-            this.Semester4_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester4_label.AutoSize = true;
-            this.Semester4_label.Location = new System.Drawing.Point(3, 9);
-            this.Semester4_label.Name = "Semester4_label";
-            this.Semester4_label.Size = new System.Drawing.Size(114, 13);
-            this.Semester4_label.TabIndex = 7;
-            this.Semester4_label.Text = "Semester 4";
-            this.Semester4_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Semester5_label
-            // 
-            this.Semester5_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester5_label.AutoSize = true;
-            this.Semester5_label.Location = new System.Drawing.Point(3, 9);
-            this.Semester5_label.Name = "Semester5_label";
-            this.Semester5_label.Size = new System.Drawing.Size(114, 13);
-            this.Semester5_label.TabIndex = 7;
-            this.Semester5_label.Text = "Semester 5";
-            this.Semester5_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Semester6_label
-            // 
-            this.Semester6_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester6_label.AutoSize = true;
-            this.Semester6_label.Location = new System.Drawing.Point(3, 9);
-            this.Semester6_label.Name = "Semester6_label";
-            this.Semester6_label.Size = new System.Drawing.Size(114, 13);
-            this.Semester6_label.TabIndex = 7;
-            this.Semester6_label.Text = "Semester 6";
-            this.Semester6_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Semester7_label
-            // 
-            this.Semester7_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester7_label.AutoSize = true;
-            this.Semester7_label.Location = new System.Drawing.Point(3, 8);
-            this.Semester7_label.Name = "Semester7_label";
-            this.Semester7_label.Size = new System.Drawing.Size(113, 13);
-            this.Semester7_label.TabIndex = 7;
-            this.Semester7_label.Text = "Semester 7";
-            this.Semester7_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Semester8_label
-            // 
-            this.Semester8_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.Semester8_label.AutoSize = true;
-            this.Semester8_label.Location = new System.Drawing.Point(3, 9);
-            this.Semester8_label.Name = "Semester8_label";
-            this.Semester8_label.Size = new System.Drawing.Size(113, 13);
-            this.Semester8_label.TabIndex = 7;
-            this.Semester8_label.Text = "Semester 8";
-            this.Semester8_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // iPlannerMain
             // 
             this.ClientSize = new System.Drawing.Size(295, 450);
@@ -583,23 +586,23 @@
             this.Name = "iPlannerMain";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoMain)).EndInit();
-            this.Semester1_table.ResumeLayout(false);
-            this.Semester1_table.PerformLayout();
-            this.Semester2_table.ResumeLayout(false);
-            this.Semester2_table.PerformLayout();
-            this.Semester3_table.ResumeLayout(false);
-            this.Semester3_table.PerformLayout();
-            this.Semester4_table.ResumeLayout(false);
-            this.Semester4_table.PerformLayout();
-            this.Semester5_table.ResumeLayout(false);
-            this.Semester5_table.PerformLayout();
-            this.Semester6_table.ResumeLayout(false);
-            this.Semester6_table.PerformLayout();
-            this.Semester7_table.ResumeLayout(false);
-            this.Semester7_table.PerformLayout();
             this.Semester8_table.ResumeLayout(false);
             this.Semester8_table.PerformLayout();
+            this.Semester7_table.ResumeLayout(false);
+            this.Semester7_table.PerformLayout();
+            this.Semester6_table.ResumeLayout(false);
+            this.Semester6_table.PerformLayout();
+            this.Semester5_table.ResumeLayout(false);
+            this.Semester5_table.PerformLayout();
+            this.Semester3_table.ResumeLayout(false);
+            this.Semester3_table.PerformLayout();
+            this.Semester2_table.ResumeLayout(false);
+            this.Semester2_table.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LogoMain)).EndInit();
+            this.Semester4_table.ResumeLayout(false);
+            this.Semester4_table.PerformLayout();
+            this.Semester1_table.ResumeLayout(false);
+            this.Semester1_table.PerformLayout();
             this.ResumeLayout(false);
 
         }
