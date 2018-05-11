@@ -21,7 +21,8 @@ namespace iPlanner
 
         private void Profile_Click(object sender, EventArgs e)
         {
-
+            ProfilPengguna profil = new ProfilPengguna();
+            profil.Show();
         }
 
         private void EditSemester1_button_Click(object sender, EventArgs e)

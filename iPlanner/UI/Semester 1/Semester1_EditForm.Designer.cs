@@ -197,7 +197,7 @@
             this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
             this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
-            this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.Krs_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
             this.Krs_table.Controls.Add(this.Bobotsks_table, 5, 1);
             this.Krs_table.Controls.Add(this.Bobot_table, 4, 1);
             this.Krs_table.Controls.Add(this.Nilai_table, 3, 1);
@@ -234,7 +234,7 @@
             this.Bobotsks_table.Controls.Add(this.Bobotsks3_label, 0, 2);
             this.Bobotsks_table.Controls.Add(this.Bobotsks2_label, 0, 1);
             this.Bobotsks_table.Controls.Add(this.Bobotsks1_label, 0, 0);
-            this.Bobotsks_table.Location = new System.Drawing.Point(560, 37);
+            this.Bobotsks_table.Location = new System.Drawing.Point(557, 37);
             this.Bobotsks_table.Name = "Bobotsks_table";
             this.Bobotsks_table.RowCount = 10;
             this.Bobotsks_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -247,7 +247,7 @@
             this.Bobotsks_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Bobotsks_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Bobotsks_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Bobotsks_table.Size = new System.Drawing.Size(102, 202);
+            this.Bobotsks_table.Size = new System.Drawing.Size(105, 202);
             this.Bobotsks_table.TabIndex = 7;
             // 
             // Bobotsks10_label
@@ -258,7 +258,7 @@
             this.Bobotsks10_label.AutoSize = true;
             this.Bobotsks10_label.Location = new System.Drawing.Point(3, 182);
             this.Bobotsks10_label.Name = "Bobotsks10_label";
-            this.Bobotsks10_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks10_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks10_label.TabIndex = 45;
             this.Bobotsks10_label.Text = "label60";
             this.Bobotsks10_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -271,7 +271,7 @@
             this.Bobotsks9_label.AutoSize = true;
             this.Bobotsks9_label.Location = new System.Drawing.Point(3, 162);
             this.Bobotsks9_label.Name = "Bobotsks9_label";
-            this.Bobotsks9_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks9_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks9_label.TabIndex = 44;
             this.Bobotsks9_label.Text = "label45";
             this.Bobotsks9_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -284,7 +284,7 @@
             this.Bobotsks8_label.AutoSize = true;
             this.Bobotsks8_label.Location = new System.Drawing.Point(3, 142);
             this.Bobotsks8_label.Name = "Bobotsks8_label";
-            this.Bobotsks8_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks8_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks8_label.TabIndex = 43;
             this.Bobotsks8_label.Text = "label44";
             this.Bobotsks8_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -297,7 +297,7 @@
             this.Bobotsks7_label.AutoSize = true;
             this.Bobotsks7_label.Location = new System.Drawing.Point(3, 122);
             this.Bobotsks7_label.Name = "Bobotsks7_label";
-            this.Bobotsks7_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks7_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks7_label.TabIndex = 42;
             this.Bobotsks7_label.Text = "label43";
             this.Bobotsks7_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -310,7 +310,7 @@
             this.Bobotsks6_label.AutoSize = true;
             this.Bobotsks6_label.Location = new System.Drawing.Point(3, 102);
             this.Bobotsks6_label.Name = "Bobotsks6_label";
-            this.Bobotsks6_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks6_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks6_label.TabIndex = 41;
             this.Bobotsks6_label.Text = "label42";
             this.Bobotsks6_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -323,7 +323,7 @@
             this.Bobotsks5_label.AutoSize = true;
             this.Bobotsks5_label.Location = new System.Drawing.Point(3, 82);
             this.Bobotsks5_label.Name = "Bobotsks5_label";
-            this.Bobotsks5_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks5_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks5_label.TabIndex = 40;
             this.Bobotsks5_label.Text = "label41";
             this.Bobotsks5_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -336,7 +336,7 @@
             this.Bobotsks4_label.AutoSize = true;
             this.Bobotsks4_label.Location = new System.Drawing.Point(3, 62);
             this.Bobotsks4_label.Name = "Bobotsks4_label";
-            this.Bobotsks4_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks4_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks4_label.TabIndex = 39;
             this.Bobotsks4_label.Text = "label40";
             this.Bobotsks4_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -349,7 +349,7 @@
             this.Bobotsks3_label.AutoSize = true;
             this.Bobotsks3_label.Location = new System.Drawing.Point(3, 42);
             this.Bobotsks3_label.Name = "Bobotsks3_label";
-            this.Bobotsks3_label.Size = new System.Drawing.Size(96, 20);
+            this.Bobotsks3_label.Size = new System.Drawing.Size(99, 20);
             this.Bobotsks3_label.TabIndex = 38;
             this.Bobotsks3_label.Text = "label39";
             this.Bobotsks3_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -362,7 +362,7 @@
             this.Bobotsks2_label.AutoSize = true;
             this.Bobotsks2_label.Location = new System.Drawing.Point(3, 21);
             this.Bobotsks2_label.Name = "Bobotsks2_label";
-            this.Bobotsks2_label.Size = new System.Drawing.Size(96, 21);
+            this.Bobotsks2_label.Size = new System.Drawing.Size(99, 21);
             this.Bobotsks2_label.TabIndex = 37;
             this.Bobotsks2_label.Text = "label38";
             this.Bobotsks2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -375,7 +375,7 @@
             this.Bobotsks1_label.AutoSize = true;
             this.Bobotsks1_label.Location = new System.Drawing.Point(3, 0);
             this.Bobotsks1_label.Name = "Bobotsks1_label";
-            this.Bobotsks1_label.Size = new System.Drawing.Size(96, 21);
+            this.Bobotsks1_label.Size = new System.Drawing.Size(99, 21);
             this.Bobotsks1_label.TabIndex = 36;
             this.Bobotsks1_label.Text = "label37";
             this.Bobotsks1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -396,7 +396,7 @@
             this.Bobot_table.Controls.Add(this.Bobot3_label, 0, 2);
             this.Bobot_table.Controls.Add(this.Bobot2_label, 0, 1);
             this.Bobot_table.Controls.Add(this.Bobot1_label, 0, 0);
-            this.Bobot_table.Location = new System.Drawing.Point(474, 37);
+            this.Bobot_table.Location = new System.Drawing.Point(471, 37);
             this.Bobot_table.Name = "Bobot_table";
             this.Bobot_table.RowCount = 10;
             this.Bobot_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -558,7 +558,7 @@
             this.Nilai_table.Controls.Add(this.Nilai3_textbox, 0, 2);
             this.Nilai_table.Controls.Add(this.Nilai2_textbox, 0, 1);
             this.Nilai_table.Controls.Add(this.Nilai1_textbox, 0, 0);
-            this.Nilai_table.Location = new System.Drawing.Point(396, 37);
+            this.Nilai_table.Location = new System.Drawing.Point(393, 37);
             this.Nilai_table.Name = "Nilai_table";
             this.Nilai_table.RowCount = 10;
             this.Nilai_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -680,7 +680,7 @@
             this.Sks_table.Controls.Add(this.Sks2_label, 0, 1);
             this.Sks_table.Controls.Add(this.Sks1_label, 0, 0);
             this.Sks_table.Controls.Add(this.Sks9_label, 0, 8);
-            this.Sks_table.Location = new System.Drawing.Point(320, 37);
+            this.Sks_table.Location = new System.Drawing.Point(317, 37);
             this.Sks_table.Name = "Sks_table";
             this.Sks_table.RowCount = 10;
             this.Sks_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -855,7 +855,7 @@
             this.Nomor_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Nomor_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Nomor_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Nomor_table.Size = new System.Drawing.Size(36, 202);
+            this.Nomor_table.Size = new System.Drawing.Size(35, 202);
             this.Nomor_table.TabIndex = 7;
             // 
             // Nomor10_label
@@ -866,7 +866,7 @@
             this.Nomor10_label.AutoSize = true;
             this.Nomor10_label.Location = new System.Drawing.Point(3, 182);
             this.Nomor10_label.Name = "Nomor10_label";
-            this.Nomor10_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor10_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor10_label.TabIndex = 54;
             this.Nomor10_label.Text = "10. ";
             this.Nomor10_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -879,7 +879,7 @@
             this.Nomor9_label.AutoSize = true;
             this.Nomor9_label.Location = new System.Drawing.Point(3, 162);
             this.Nomor9_label.Name = "Nomor9_label";
-            this.Nomor9_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor9_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor9_label.TabIndex = 53;
             this.Nomor9_label.Text = "9. ";
             this.Nomor9_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -892,7 +892,7 @@
             this.Nomor8_label.AutoSize = true;
             this.Nomor8_label.Location = new System.Drawing.Point(3, 142);
             this.Nomor8_label.Name = "Nomor8_label";
-            this.Nomor8_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor8_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor8_label.TabIndex = 52;
             this.Nomor8_label.Text = "8. ";
             this.Nomor8_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -905,7 +905,7 @@
             this.Nomor7_label.AutoSize = true;
             this.Nomor7_label.Location = new System.Drawing.Point(3, 122);
             this.Nomor7_label.Name = "Nomor7_label";
-            this.Nomor7_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor7_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor7_label.TabIndex = 51;
             this.Nomor7_label.Text = "7. ";
             this.Nomor7_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -918,7 +918,7 @@
             this.Nomor6_label.AutoSize = true;
             this.Nomor6_label.Location = new System.Drawing.Point(3, 102);
             this.Nomor6_label.Name = "Nomor6_label";
-            this.Nomor6_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor6_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor6_label.TabIndex = 50;
             this.Nomor6_label.Text = "6. ";
             this.Nomor6_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -931,7 +931,7 @@
             this.Nomor5_label.AutoSize = true;
             this.Nomor5_label.Location = new System.Drawing.Point(3, 82);
             this.Nomor5_label.Name = "Nomor5_label";
-            this.Nomor5_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor5_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor5_label.TabIndex = 49;
             this.Nomor5_label.Text = "5. ";
             this.Nomor5_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -944,7 +944,7 @@
             this.Nomor4_label.AutoSize = true;
             this.Nomor4_label.Location = new System.Drawing.Point(3, 62);
             this.Nomor4_label.Name = "Nomor4_label";
-            this.Nomor4_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor4_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor4_label.TabIndex = 48;
             this.Nomor4_label.Text = "4.";
             this.Nomor4_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -957,7 +957,7 @@
             this.Nomor3_label.AutoSize = true;
             this.Nomor3_label.Location = new System.Drawing.Point(3, 42);
             this.Nomor3_label.Name = "Nomor3_label";
-            this.Nomor3_label.Size = new System.Drawing.Size(30, 20);
+            this.Nomor3_label.Size = new System.Drawing.Size(29, 20);
             this.Nomor3_label.TabIndex = 47;
             this.Nomor3_label.Text = "3.";
             this.Nomor3_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -970,7 +970,7 @@
             this.Nomor2_label.AutoSize = true;
             this.Nomor2_label.Location = new System.Drawing.Point(3, 21);
             this.Nomor2_label.Name = "Nomor2_label";
-            this.Nomor2_label.Size = new System.Drawing.Size(30, 21);
+            this.Nomor2_label.Size = new System.Drawing.Size(29, 21);
             this.Nomor2_label.TabIndex = 46;
             this.Nomor2_label.Text = "2.";
             this.Nomor2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -983,7 +983,7 @@
             this.Nomor1_label.AutoSize = true;
             this.Nomor1_label.Location = new System.Drawing.Point(3, 0);
             this.Nomor1_label.Name = "Nomor1_label";
-            this.Nomor1_label.Size = new System.Drawing.Size(30, 21);
+            this.Nomor1_label.Size = new System.Drawing.Size(29, 21);
             this.Nomor1_label.TabIndex = 45;
             this.Nomor1_label.Text = "1.";
             this.Nomor1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -994,9 +994,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Bobotsks_label.AutoSize = true;
-            this.Bobotsks_label.Location = new System.Drawing.Point(560, 2);
+            this.Bobotsks_label.Location = new System.Drawing.Point(557, 2);
             this.Bobotsks_label.Name = "Bobotsks_label";
-            this.Bobotsks_label.Size = new System.Drawing.Size(102, 30);
+            this.Bobotsks_label.Size = new System.Drawing.Size(105, 30);
             this.Bobotsks_label.TabIndex = 5;
             this.Bobotsks_label.Text = "Bobot X SKS";
             this.Bobotsks_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1007,7 +1007,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Bobot_label.AutoSize = true;
-            this.Bobot_label.Location = new System.Drawing.Point(474, 2);
+            this.Bobot_label.Location = new System.Drawing.Point(471, 2);
             this.Bobot_label.Name = "Bobot_label";
             this.Bobot_label.Size = new System.Drawing.Size(78, 30);
             this.Bobot_label.TabIndex = 4;
@@ -1020,7 +1020,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Nilai_label.AutoSize = true;
-            this.Nilai_label.Location = new System.Drawing.Point(396, 2);
+            this.Nilai_label.Location = new System.Drawing.Point(393, 2);
             this.Nilai_label.Name = "Nilai_label";
             this.Nilai_label.Size = new System.Drawing.Size(70, 30);
             this.Nilai_label.TabIndex = 3;
@@ -1033,7 +1033,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Sks_label.AutoSize = true;
-            this.Sks_label.Location = new System.Drawing.Point(320, 2);
+            this.Sks_label.Location = new System.Drawing.Point(317, 2);
             this.Sks_label.Name = "Sks_label";
             this.Sks_label.Size = new System.Drawing.Size(68, 30);
             this.Sks_label.TabIndex = 2;
@@ -1046,10 +1046,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul_label.AutoSize = true;
-            this.Matkul_label.Location = new System.Drawing.Point(49, 2);
+            this.Matkul_label.Location = new System.Drawing.Point(48, 2);
             this.Matkul_label.Name = "Matkul_label";
             this.Matkul_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Matkul_label.Size = new System.Drawing.Size(263, 30);
+            this.Matkul_label.Size = new System.Drawing.Size(261, 30);
             this.Matkul_label.TabIndex = 1;
             this.Matkul_label.Text = "Nama Matkul";
             this.Matkul_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1062,7 +1062,7 @@
             this.Nomor_label.AutoSize = true;
             this.Nomor_label.Location = new System.Drawing.Point(5, 2);
             this.Nomor_label.Name = "Nomor_label";
-            this.Nomor_label.Size = new System.Drawing.Size(36, 30);
+            this.Nomor_label.Size = new System.Drawing.Size(35, 30);
             this.Nomor_label.TabIndex = 0;
             this.Nomor_label.Text = "No. ";
             this.Nomor_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1083,7 +1083,7 @@
             this.Matkul_table.Controls.Add(this.Matkul7_textbox, 0, 6);
             this.Matkul_table.Controls.Add(this.Matkul6_textbox, 0, 5);
             this.Matkul_table.Controls.Add(this.Matkul4_textbox, 0, 3);
-            this.Matkul_table.Location = new System.Drawing.Point(49, 37);
+            this.Matkul_table.Location = new System.Drawing.Point(48, 37);
             this.Matkul_table.Name = "Matkul_table";
             this.Matkul_table.RowCount = 10;
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1098,7 +1098,7 @@
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Matkul_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Matkul_table.Size = new System.Drawing.Size(263, 202);
+            this.Matkul_table.Size = new System.Drawing.Size(261, 202);
             this.Matkul_table.TabIndex = 6;
             // 
             // Matkul10_textbox
@@ -1106,7 +1106,7 @@
             this.Matkul10_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul10_textbox.Location = new System.Drawing.Point(3, 185);
             this.Matkul10_textbox.Name = "Matkul10_textbox";
-            this.Matkul10_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul10_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul10_textbox.TabIndex = 10;
             this.Matkul10_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1115,7 +1115,7 @@
             this.Matkul5_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul5_textbox.Location = new System.Drawing.Point(3, 85);
             this.Matkul5_textbox.Name = "Matkul5_textbox";
-            this.Matkul5_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul5_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul5_textbox.TabIndex = 5;
             this.Matkul5_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1124,7 +1124,7 @@
             this.Matkul3_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul3_textbox.Location = new System.Drawing.Point(3, 45);
             this.Matkul3_textbox.Name = "Matkul3_textbox";
-            this.Matkul3_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul3_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul3_textbox.TabIndex = 3;
             this.Matkul3_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1133,7 +1133,7 @@
             this.Matkul2_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul2_textbox.Location = new System.Drawing.Point(3, 24);
             this.Matkul2_textbox.Name = "Matkul2_textbox";
-            this.Matkul2_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul2_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul2_textbox.TabIndex = 2;
             this.Matkul2_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1142,7 +1142,7 @@
             this.Matkul1_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul1_textbox.Location = new System.Drawing.Point(3, 3);
             this.Matkul1_textbox.Name = "Matkul1_textbox";
-            this.Matkul1_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul1_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul1_textbox.TabIndex = 1;
             this.Matkul1_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1151,7 +1151,7 @@
             this.Matkul9_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul9_textbox.Location = new System.Drawing.Point(3, 165);
             this.Matkul9_textbox.Name = "Matkul9_textbox";
-            this.Matkul9_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul9_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul9_textbox.TabIndex = 9;
             this.Matkul9_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1160,7 +1160,7 @@
             this.Matkul8_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul8_textbox.Location = new System.Drawing.Point(3, 145);
             this.Matkul8_textbox.Name = "Matkul8_textbox";
-            this.Matkul8_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul8_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul8_textbox.TabIndex = 8;
             this.Matkul8_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1169,7 +1169,7 @@
             this.Matkul7_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul7_textbox.Location = new System.Drawing.Point(3, 125);
             this.Matkul7_textbox.Name = "Matkul7_textbox";
-            this.Matkul7_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul7_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul7_textbox.TabIndex = 7;
             this.Matkul7_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1178,7 +1178,7 @@
             this.Matkul6_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul6_textbox.Location = new System.Drawing.Point(3, 105);
             this.Matkul6_textbox.Name = "Matkul6_textbox";
-            this.Matkul6_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul6_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul6_textbox.TabIndex = 6;
             this.Matkul6_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1187,7 +1187,7 @@
             this.Matkul4_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.Matkul4_textbox.Location = new System.Drawing.Point(3, 65);
             this.Matkul4_textbox.Name = "Matkul4_textbox";
-            this.Matkul4_textbox.Size = new System.Drawing.Size(257, 20);
+            this.Matkul4_textbox.Size = new System.Drawing.Size(255, 20);
             this.Matkul4_textbox.TabIndex = 4;
             this.Matkul4_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

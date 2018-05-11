@@ -16,6 +16,7 @@ namespace iPlanner.UI
         string bobot;
         string akhir;
         double total;
+        double nilaiIp;
         public Semester2_Form()
         {
             InitializeComponent();
@@ -52,6 +53,17 @@ namespace iPlanner.UI
                 akhir = hitungNilai.HitungNilaiAkhir(nilai, sks);
             else
                 akhir = "0";
+        }
+
+        private void IsiIPK(ref string ipk)
+        {
+            double ip1=0, ip2=0;
+            int sks1=0, sks2=0;
+            HitungNilai hitungNilai = new HitungNilai();
+            Semester1_Form semester1_ = new Semester1_Form();
+            semester1_.DapatIpSKS(ref ip1, ref sks1);
+            this.DapatIpSKS(ref ip2, ref sks2);
+            ipk = hitungNilai.HitungIpk(ip1, sks1, ip2, sks2);
         }
 
         void IsiLabelBobot ()
@@ -189,8 +201,11 @@ namespace iPlanner.UI
 
             NilaiTotal_label.Text = total.ToString();
             NilaiSKS_label.Text = skstotal.ToString();
-            double nilaiIp = total / skstotal;
+            nilaiIp = total / skstotal;
             NilaiIP_label.Text = nilaiIp.ToString("0.##");
+            string ipk="";
+            IsiIPK(ref ipk);
+            NilaiIPK_label.Text = ipk;
         }
 
         private void IsiNilai_Button_Click(object sender, EventArgs e)
@@ -200,6 +215,10 @@ namespace iPlanner.UI
             this.Close();
         }
 
-      
+        public void DapatIpSKS(ref double ip, ref int sks)
+        {
+            ip = nilaiIp;
+            sks = int.Parse(NilaiSKS_label.Text);
+        }
     }
 }

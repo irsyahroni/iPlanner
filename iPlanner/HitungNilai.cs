@@ -10,6 +10,7 @@ namespace iPlanner
     {
         private double bobot;
         private double nilaiAkhir;
+        private double ipk;
 
         private void Translate(string nilai)
         {
@@ -26,6 +27,21 @@ namespace iPlanner
             nilaiAkhir = bobot * sks;
         }
 
+        private void Ipk(double ipk,int sks1, double ip, int sks)
+        {
+            ipk = ipk * sks1;
+            ip = ip * sks;
+            sks = sks + sks1;
+            ipk = ipk + ip;
+            ipk = ipk / sks;
+        }
+
+        public string HitungIpk(double ipk, int sks, double ip, int sks1)
+        {
+            Ipk(ipk, sks, ip, sks1);
+            return ipk.ToString();
+        }
+
         public string HitungNilaiHuruf(string huruf)
         {
             Translate(huruf);
@@ -38,6 +54,8 @@ namespace iPlanner
             NilaiFinal(bobot, int.Parse(sks));
             return nilaiAkhir.ToString();
         }
+        
+        
 
         private static string[] NilaiDalamHuruf = new string[12] 
         { "A", "A-", "A/B", "B+", "B", "B-", "B/C", "C+", "C", "C-", "D", "E"};
